@@ -1,0 +1,1706 @@
+# text = Peter.
+# sent_id = 0
+1	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=5|ner=S-PER|SpaceAfter=No
+2	.	.	PUNCT	LET	_	1	punct	_	start_char=5|end_char=6|ner=O|SpacesAfter=\n\n
+
+# text = ‘Nee, Antone, ik heb het u al vaak gezegd, zolang ik leef zult gij hem niet verkopen.’
+# sent_id = 1
+1	‘Nee	‘nee	INTJ	TSW	_	11	parataxis	_	start_char=8|end_char=12|ner=O|SpaceAfter=No
+2	,	,	PUNCT	LET	_	1	punct	_	start_char=12|end_char=13|ner=O
+3	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	11	parataxis	_	start_char=14|end_char=20|ner=S-PER|SpaceAfter=No
+4	,	,	PUNCT	LET	_	1	punct	_	start_char=20|end_char=21|ner=O
+5	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	11	nsubj	_	start_char=22|end_char=24|ner=O
+6	heb	hebben	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=25|end_char=28|ner=O
+7	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	11	obj	_	start_char=29|end_char=32|ner=O
+8	u	u	PRON	VNW|pr|pron|obl|vol|2|getal	Case=Acc|Person=2|PronType=Prs	11	iobj	_	start_char=33|end_char=34|ner=O
+9	al	al	ADV	BW	_	10	advmod	_	start_char=35|end_char=37|ner=O
+10	vaak	vaak	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	11	advmod	_	start_char=38|end_char=42|ner=O
+11	gezegd	zeggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=43|end_char=49|ner=O|SpaceAfter=No
+12	,	,	PUNCT	LET	_	15	punct	_	start_char=49|end_char=50|ner=O
+13	zolang	zolang	SCONJ	VG|onder	_	15	mark	_	start_char=51|end_char=57|ner=O
+14	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	15	nsubj	_	start_char=58|end_char=60|ner=O
+15	leef	leven	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	20	advcl	_	start_char=61|end_char=65|ner=O
+16	zult	zullen	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=66|end_char=70|ner=O
+17	gij	gij	PRON	VNW|pers|pron|nomin|vol|2b|getal	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	start_char=71|end_char=74|ner=O
+18	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	20	obj	_	start_char=75|end_char=78|ner=O
+19	niet	niet	ADV	BW	_	20	advmod	_	start_char=79|end_char=83|ner=O
+20	verkopen	verkopen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	11	parataxis	_	start_char=84|end_char=92|ner=O|SpaceAfter=No
+21	.	.	PUNCT	LET	_	11	punct	_	start_char=92|end_char=93|ner=O|SpaceAfter=No
+22	’	'	PUNCT	LET	_	11	punct	_	start_char=93|end_char=94|ner=O|SpacesAfter=\n
+
+# text = ‘Maar ik heb geld nodig;
+# sent_id = 2
+1	‘	‘	PUNCT	LET	_	4	punct	_	start_char=95|end_char=96|ner=O|SpaceAfter=No
+2	Maar	maar	CCONJ	VG|neven	_	4	mark	_	start_char=96|end_char=100|ner=O
+3	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	4	nsubj	_	start_char=101|end_char=103|ner=O
+4	heb	hebben	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=104|end_char=107|ner=O
+5	geld	geld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obj	_	start_char=108|end_char=112|ner=O
+6	nodig	nodig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	xcomp	_	start_char=113|end_char=118|ner=O|SpaceAfter=No
+7	;	;	PUNCT	LET	_	4	punct	_	start_char=118|end_char=119|ner=O
+
+# text = wat hebt gij aan die oude viool?
+# sent_id = 3
+1	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	2	obj	_	start_char=120|end_char=123|ner=O
+2	hebt	hebben	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=124|end_char=128|ner=O
+3	gij	gij	PRON	VNW|pers|pron|nomin|vol|2b|getal	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=129|end_char=132|ner=O
+4	aan	aan	ADP	VZ|init	_	7	case	_	start_char=133|end_char=136|ner=O
+5	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	7	det	_	start_char=137|end_char=140|ner=O
+6	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	_	start_char=141|end_char=145|ner=O
+7	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl:arg	_	start_char=146|end_char=151|ner=O|SpaceAfter=No
+8	?	?	PUNCT	LET	_	2	punct	_	start_char=151|end_char=152|ner=O
+
+# text = Zelfs de kraaien lachen als gij probeert te spelen.
+# sent_id = 4
+1	Zelfs	zelfs	ADV	BW	_	3	amod	_	start_char=153|end_char=158|ner=O
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	start_char=159|end_char=161|ner=O
+3	kraaien	kraai	NOUN	N|soort|mv|basis	Number=Plur	4	nsubj	_	start_char=162|end_char=169|ner=O
+4	lachen	lachen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	start_char=170|end_char=176|ner=O
+5	als	als	SCONJ	VG|onder	_	7	mark	_	start_char=177|end_char=180|ner=O
+6	gij	gij	PRON	VNW|pers|pron|nomin|vol|2b|getal	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=181|end_char=184|ner=O
+7	probeert	proberen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=185|end_char=193|ner=O
+8	te	te	ADP	VZ|init	_	9	mark	_	start_char=194|end_char=196|ner=O
+9	spelen	spelen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	xcomp	_	start_char=197|end_char=203|ner=O|SpaceAfter=No
+10	.	.	PUNCT	LET	_	4	punct	_	start_char=203|end_char=204|ner=O
+
+# text = Door het beven van uw hand kunt ge de strijkstok amper vasthouden.
+# sent_id = 5
+1	Door	door	ADP	VZ|init	_	3	case	_	start_char=205|end_char=209|ner=O
+2	het	het	DET	LID|bep|stan|evon	Definite=Def	3	det	_	start_char=210|end_char=213|ner=O
+3	beven	beven	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	12	obl	_	start_char=214|end_char=219|ner=O
+4	van	van	ADP	VZ|init	_	6	case	_	start_char=220|end_char=223|ner=O
+5	uw	u	PRON	VNW|bez|det|stan|vol|2|getal|prenom|zonder|agr	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=224|end_char=226|ner=O
+6	hand	hand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nmod	_	start_char=227|end_char=231|ner=O
+7	kunt	kunnen	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=232|end_char=236|ner=O
+8	ge	ge	PRON	VNW|pers|pron|nomin|red|2v|ev	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	start_char=237|end_char=239|ner=O
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	start_char=240|end_char=242|ner=O
+10	strijkstok	strijkstok	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obj	_	start_char=243|end_char=253|ner=O
+11	amper	amper	ADV	BW	_	12	advmod	_	start_char=254|end_char=259|ner=O
+12	vasthouden	vast_houden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=260|end_char=270|ner=O|SpaceAfter=No
+13	.	.	PUNCT	LET	_	12	punct	_	start_char=270|end_char=271|ner=O
+
+# text = Morgen komt ge mee naar Blue Mesa om hout te hakken.
+# sent_id = 6
+1	Morgen	morgen	ADV	BW	_	2	advmod	_	start_char=272|end_char=278|ner=O
+2	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=279|end_char=283|ner=O
+3	ge	ge	PRON	VNW|pers|pron|nomin|red|2v|ev	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=284|end_char=286|ner=O
+4	mee	mee	ADP	VZ|fin	_	2	compound:prt	_	start_char=287|end_char=290|ner=O
+5	naar	naar	ADP	VZ|init	_	6	case	_	start_char=291|end_char=295|ner=O
+6	Blue	Blue	PROPN	SPEC|deeleigen	_	2	obl	_	start_char=296|end_char=300|ner=B-LOC
+7	Mesa	Mesa	PROPN	SPEC|deeleigen	_	6	flat	_	start_char=301|end_char=305|ner=E-LOC
+8	om	om	ADP	VZ|init	_	11	mark	_	start_char=306|end_char=308|ner=O
+9	hout	hout	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	obj	_	start_char=309|end_char=313|ner=O
+10	te	te	ADP	VZ|init	_	11	mark	_	start_char=314|end_char=316|ner=O
+11	hakken	om_hakken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	advcl	_	start_char=317|end_char=323|ner=O|SpaceAfter=No
+12	.	.	PUNCT	LET	_	2	punct	_	start_char=323|end_char=324|ner=O
+
+# text = Zorgt dat ge vroeg uit de veren zijt.’
+# sent_id = 7
+1	Zorgt	zorgen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=325|end_char=330|ner=O
+2	dat	dat	SCONJ	VG|onder	_	8	mark	_	start_char=331|end_char=334|ner=O
+3	ge	ge	PRON	VNW|pers|pron|nomin|vol|2v|ev	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=335|end_char=337|ner=O
+4	vroeg	vroeg	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	advmod	_	start_char=338|end_char=343|ner=O
+5	uit	uit	ADP	VZ|init	_	8	compound:prt	_	start_char=344|end_char=347|ner=O
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	5	fixed	_	start_char=348|end_char=350|ner=O
+7	veren	veer	NOUN	N|soort|mv|basis	Number=Plur	8	obl	_	start_char=351|end_char=356|ner=O
+8	zijt	zijn	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=357|end_char=361|ner=O|SpaceAfter=No
+9	.	.	PUNCT	LET	_	1	punct	_	start_char=361|end_char=362|ner=O|SpaceAfter=No
+10	’	'	PUNCT	LET	_	1	punct	_	start_char=362|end_char=363|ner=O|SpacesAfter=\n
+
+# text = ‘Toch niet op de sabbat, Antone, in deze koude?
+# sent_id = 8
+1	‘	‘	PUNCT	LET	_	2	punct	_	start_char=364|end_char=365|ner=O|SpaceAfter=No
+2	Toch	toch	ADV	BW	_	0	root	_	start_char=365|end_char=369|ner=O
+3	niet	niet	ADV	BW	_	2	parataxis	_	start_char=370|end_char=374|ner=O
+4	op	op	ADP	VZ|init	_	6	case	_	start_char=375|end_char=377|ner=O
+5	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	_	start_char=378|end_char=380|ner=O
+6	sabbat	sabbat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	parataxis	_	start_char=381|end_char=387|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	8	punct	_	start_char=387|end_char=388|ner=O
+8	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	6	appos	_	start_char=389|end_char=395|ner=S-PER|SpaceAfter=No
+9	,	,	PUNCT	LET	_	12	punct	_	start_char=395|end_char=396|ner=O
+10	in	in	ADP	VZ|init	_	12	case	_	start_char=397|end_char=399|ner=O
+11	deze	deze	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	12	det	_	start_char=400|end_char=404|ner=O
+12	koude	koud	ADJ	ADJ|nom|basis|met-e|zonder-n|stan	Degree=Pos	6	conj	_	start_char=405|end_char=410|ner=O|SpaceAfter=No
+13	?	?	PUNCT	LET	_	2	punct	_	start_char=410|end_char=411|ner=O
+
+# text = Ik krijg het zo vreselijk koud, mijn zoon, laat ons niet morgen gaan.’
+# sent_id = 9
+1	Ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	2	nsubj	_	start_char=412|end_char=414|ner=O
+2	krijg	krijgen	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=415|end_char=420|ner=O
+3	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	2	obj	_	start_char=421|end_char=424|ner=O
+4	zo	zo	ADV	BW	_	5	advmod	_	start_char=425|end_char=427|ner=O
+5	vreselijk	vreselijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	_	start_char=428|end_char=437|ner=O
+6	koud	koud	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	xcomp	_	start_char=438|end_char=442|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	9	punct	_	start_char=442|end_char=443|ner=O
+8	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=444|end_char=448|ner=O
+9	zoon	zoon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	parataxis	_	start_char=449|end_char=453|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	11	punct	_	start_char=453|end_char=454|ner=O
+11	laat	laten	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=455|end_char=459|ner=O
+12	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	11	obj	_	start_char=460|end_char=463|ner=O
+13	niet	niet	ADV	BW	_	15	advmod	_	start_char=464|end_char=468|ner=O
+14	morgen	morgen	ADV	BW	_	15	advmod	_	start_char=469|end_char=475|ner=O
+15	gaan	gaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	11	xcomp	_	start_char=476|end_char=480|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	2	punct	_	start_char=480|end_char=481|ner=O|SpaceAfter=No
+17	’	'	PUNCT	LET	_	2	punct	_	start_char=481|end_char=482|ner=O|SpacesAfter=\n
+
+# text = ‘Jawel, morgen, gij oude luilak.
+# sent_id = 10
+1	‘	‘	PUNCT	LET	_	8	punct	_	start_char=483|end_char=484|ner=O|SpaceAfter=No
+2	Jawel	jawel	INTJ	TSW	_	8	parataxis	_	start_char=484|end_char=489|ner=O|SpaceAfter=No
+3	,	,	PUNCT	LET	_	2	punct	_	start_char=489|end_char=490|ner=O
+4	morgen	morgen	ADV	BW	_	8	parataxis	_	start_char=491|end_char=497|ner=O|SpaceAfter=No
+5	,	,	PUNCT	LET	_	4	punct	_	start_char=497|end_char=498|ner=O
+6	gij	gij	PRON	VNW|pers|pron|nomin|vol|2|getal	Person=2|PronType=Prs	8	nsubj	_	start_char=499|end_char=502|ner=O
+7	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	start_char=503|end_char=507|ner=O
+8	luilak	luilak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	start_char=508|end_char=514|ner=O|SpaceAfter=No
+9	.	.	PUNCT	LET	_	8	punct	_	start_char=514|end_char=515|ner=O
+
+# text = Hak ik soms geen hout op de sabbat?
+# sent_id = 11
+1	Hak	hebben	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=516|end_char=519|ner=O
+2	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	1	nsubj	_	start_char=520|end_char=522|ner=O
+3	soms	soms	ADV	BW	_	1	advmod	_	start_char=523|end_char=527|ner=O
+4	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	5	det	_	start_char=528|end_char=532|ner=O
+5	hout	hout	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	obj	_	start_char=533|end_char=537|ner=O
+6	op	op	ADP	VZ|init	_	8	case	_	start_char=538|end_char=540|ner=O
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	start_char=541|end_char=543|ner=O
+8	sabbat	sabbat	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	obl	_	start_char=544|end_char=550|ner=O|SpaceAfter=No
+9	?	?	PUNCT	LET	_	1	punct	_	start_char=550|end_char=551|ner=O
+
+# text = Kan de koude mij schelen?
+# sent_id = 12
+1	Kan	kunnen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=552|end_char=555|ner=O
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	start_char=556|end_char=558|ner=O
+3	koude	koud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	amod	_	start_char=559|end_char=564|ner=O
+4	mij	mij	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	5	obj	_	start_char=565|end_char=568|ner=O
+5	schelen	schelen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=569|end_char=576|ner=O|SpaceAfter=No
+6	?	?	PUNCT	LET	_	5	punct	_	start_char=576|end_char=577|ner=O
+
+# text = Hout zult gij hakken, en verslepen, en wat de viool betreft, die zal ik verkopen.’
+# sent_id = 13
+1	Hout	hout	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obj	_	start_char=578|end_char=582|ner=O
+2	zult	zullen	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=583|end_char=587|ner=O
+3	gij	gij	PRON	VNW|pers|pron|nomin|vol|2b|getal	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=588|end_char=591|ner=O
+4	hakken	om_hakken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=592|end_char=598|ner=O|SpaceAfter=No
+5	,	,	PUNCT	LET	_	7	punct	_	start_char=598|end_char=599|ner=O
+6	en	en	CCONJ	VG|neven	_	7	cc	_	start_char=600|end_char=602|ner=O
+7	verslepen	verslijpen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	conj	_	start_char=603|end_char=612|ner=O|SpaceAfter=No
+8	,	,	PUNCT	LET	_	18	punct	_	start_char=612|end_char=613|ner=O
+9	en	en	CCONJ	VG|neven	_	18	cc	_	start_char=614|end_char=616|ner=O
+10	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	13	obj	_	start_char=617|end_char=620|ner=O
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	_	start_char=621|end_char=623|ner=O
+12	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obj	_	start_char=624|end_char=629|ner=O
+13	betreft	betreffen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	18	parataxis	_	start_char=630|end_char=637|ner=O|SpaceAfter=No
+14	,	,	PUNCT	LET	_	13	punct	_	start_char=637|end_char=638|ner=O
+15	die	die	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	18	obj	_	start_char=639|end_char=642|ner=O
+16	zal	zullen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=643|end_char=646|ner=O
+17	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	18	nsubj	_	start_char=647|end_char=649|ner=O
+18	verkopen	verkopen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	conj	_	start_char=650|end_char=658|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	4	punct	_	start_char=658|end_char=659|ner=O|SpaceAfter=No
+20	’	'	PUNCT	LET	_	4	punct	_	start_char=659|end_char=660|ner=O
+
+# text = Antone trok zijn haveloze pet over zijn grote, lage voorhoofd en ging naar buiten.
+# sent_id = 14
+1	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=661|end_char=667|ner=S-PER
+2	trok	trekken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=668|end_char=672|ner=O
+3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=673|end_char=677|ner=O
+4	haveloze	haveloos	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	5	amod	_	start_char=678|end_char=686|ner=O
+5	pet	pet	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=687|end_char=690|ner=O
+6	over	over	ADP	VZ|init	_	11	case	_	start_char=691|end_char=695|ner=O
+7	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=696|end_char=700|ner=O
+8	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	start_char=701|end_char=706|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	8	punct	_	start_char=706|end_char=707|ner=O
+10	lage	laag	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	start_char=708|end_char=712|ner=O
+11	voorhoofd	voorhoofd	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	_	start_char=713|end_char=722|ner=O
+12	en	en	CCONJ	VG|neven	_	13	cc	_	start_char=723|end_char=725|ner=O
+13	ging	gaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=726|end_char=730|ner=O
+14	naar	naar	ADP	VZ|init	_	15	case	_	start_char=731|end_char=735|ner=O
+15	buiten	buiten	ADP	VZ|fin	_	13	obl	_	start_char=736|end_char=742|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	2	punct	_	start_char=742|end_char=743|ner=O
+
+# text = De oude man schoof zijn kruk dichter naar het vuur toe en ging zitten, en terwijl hij met bevende vingers zijn viool streelde, mompelde hij: ‘over mijn lijk, over mijn lijk.’
+# sent_id = 15
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	start_char=744|end_char=746|ner=O
+2	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	3	amod	_	start_char=747|end_char=751|ner=O
+3	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	_	start_char=752|end_char=755|ner=O
+4	schoof	schuiven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=756|end_char=762|ner=O
+5	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=763|end_char=767|ner=O
+6	kruk	kruk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	start_char=768|end_char=772|ner=O
+7	dichter	dichter	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	4	advmod	_	start_char=773|end_char=780|ner=O
+8	naar	naar	ADP	VZ|init	_	10	case	_	start_char=781|end_char=785|ner=O
+9	het	het	DET	LID|bep|stan|evon	Definite=Def	10	det	_	start_char=786|end_char=789|ner=O
+10	vuur	vuur	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obl	_	start_char=790|end_char=794|ner=O
+11	toe	toe	ADP	VZ|fin	_	4	compound:prt	_	start_char=795|end_char=798|ner=O
+12	en	en	CCONJ	VG|neven	_	13	cc	_	start_char=799|end_char=801|ner=O
+13	ging	gaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	conj	_	start_char=802|end_char=806|ner=O
+14	zitten	zitten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	13	xcomp	_	start_char=807|end_char=813|ner=O|SpaceAfter=No
+15	,	,	PUNCT	LET	_	26	punct	_	start_char=813|end_char=814|ner=O
+16	en	en	CCONJ	VG|neven	_	26	cc	_	start_char=815|end_char=817|ner=O
+17	terwijl	terwijl	SCONJ	VG|onder	_	24	mark	_	start_char=818|end_char=825|ner=O
+18	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	24	nsubj	_	start_char=826|end_char=829|ner=O
+19	met	met	ADP	VZ|init	_	21	case	_	start_char=830|end_char=833|ner=O
+20	bevende	bevenden	VERB	WW|od|prenom|met-e	VerbForm=Part	21	amod	_	start_char=834|end_char=841|ner=O
+21	vingers	vinger	NOUN	N|soort|mv|basis	Number=Plur	24	obl	_	start_char=842|end_char=849|ner=O
+22	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=850|end_char=854|ner=O
+23	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	obj	_	start_char=855|end_char=860|ner=O
+24	streelde	strelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	26	advcl	_	start_char=861|end_char=869|ner=O|SpaceAfter=No
+25	,	,	PUNCT	LET	_	24	punct	_	start_char=869|end_char=870|ner=O
+26	mompelde	mompelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	conj	_	start_char=871|end_char=879|ner=O
+27	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	26	nsubj	_	start_char=880|end_char=883|ner=O|SpaceAfter=No
+28	:	:	PUNCT	LET	_	32	punct	_	start_char=883|end_char=884|ner=O
+29	‘	‘	PUNCT	LET	_	32	punct	_	start_char=885|end_char=886|ner=O|SpaceAfter=No
+30	over	over	ADP	VZ|init	_	32	case	_	start_char=886|end_char=890|ner=O
+31	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	32	nmod:poss	_	start_char=891|end_char=895|ner=O
+32	lijk	lijk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	26	obl	_	start_char=896|end_char=900|ner=O|SpaceAfter=No
+33	,	,	PUNCT	LET	_	36	punct	_	start_char=900|end_char=901|ner=O
+34	over	over	ADP	VZ|init	_	36	case	_	start_char=902|end_char=906|ner=O
+35	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	36	nmod:poss	_	start_char=907|end_char=911|ner=O
+36	lijk	lijk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	32	nmod	_	start_char=912|end_char=916|ner=O|SpaceAfter=No
+37	.	.	PUNCT	LET	_	4	punct	_	start_char=916|end_char=917|ner=O|SpaceAfter=No
+38	’	'	PUNCT	LET	_	32	punct	_	start_char=917|end_char=918|ner=O|SpacesAfter=\n
+
+# text = Ze waren hier vijf jaar geleden naartoe gekomen, Peter Sadelack en zijn vrouw, met hun oudste zoon Antone en talloze kleine Sadelacks, naar het mistroostigste deel van het zuidwesten van Nebraska, en hadden zich op een stuk land gevestigd.
+# sent_id = 16
+1	Ze	ze	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	8	nsubj	_	start_char=919|end_char=921|ner=O
+2	waren	zijn	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	8	aux	_	start_char=922|end_char=927|ner=O
+3	hier	hier	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	8	obl:arg	_	start_char=928|end_char=932|ner=O
+4	vijf	vijf	NUM	TW|hoofd|prenom|stan	_	5	nummod	_	start_char=933|end_char=937|ner=O
+5	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	nmod	_	start_char=938|end_char=942|ner=O
+6	geleden	geleden	ADV	BW	_	8	obl	_	start_char=943|end_char=950|ner=O
+7	naartoe	naartoe	ADP	VZ|fin	_	3	case	_	start_char=951|end_char=958|ner=O
+8	gekomen	komen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=959|end_char=966|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	10	punct	_	start_char=966|end_char=967|ner=O
+10	Peter	Peter	PROPN	SPEC|deeleigen	_	8	parataxis	_	start_char=968|end_char=973|ner=B-PER
+11	Sadelack	Sadelack	PROPN	SPEC|deeleigen	_	10	flat	_	start_char=974|end_char=982|ner=E-PER
+12	en	en	CCONJ	VG|neven	_	14	cc	_	start_char=983|end_char=985|ner=O
+13	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=986|end_char=990|ner=O
+14	vrouw	vrouw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	_	start_char=991|end_char=996|ner=O|SpaceAfter=No
+15	,	,	PUNCT	LET	_	19	punct	_	start_char=996|end_char=997|ner=O
+16	met	met	ADP	VZ|init	_	19	case	_	start_char=998|end_char=1001|ner=O
+17	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=1002|end_char=1005|ner=O
+18	oudste	oud	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	19	amod	_	start_char=1006|end_char=1012|ner=O
+19	zoon	zoon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	_	start_char=1013|end_char=1017|ner=O
+20	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	19	appos	_	start_char=1018|end_char=1024|ner=S-PER
+21	en	en	CCONJ	VG|neven	_	24	cc	_	start_char=1025|end_char=1027|ner=O
+22	talloze	talloos	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	24	amod	_	start_char=1028|end_char=1035|ner=O
+23	kleine	klein	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	24	amod	_	start_char=1036|end_char=1042|ner=O
+24	Sadelacks	sadel_acks	NOUN	N|soort|mv|basis	Number=Plur	10	conj	_	start_char=1043|end_char=1052|ner=S-MISC|SpaceAfter=No
+25	,	,	PUNCT	LET	_	29	punct	_	start_char=1052|end_char=1053|ner=O
+26	naar	naar	ADP	VZ|init	_	29	case	_	start_char=1054|end_char=1058|ner=O
+27	het	het	DET	LID|bep|stan|evon	Definite=Def	29	det	_	start_char=1059|end_char=1062|ner=O
+28	mistroostigste	mistroostig	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	29	amod	_	start_char=1063|end_char=1077|ner=O
+29	deel	deel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	obl	_	start_char=1078|end_char=1082|ner=O
+30	van	van	ADP	VZ|init	_	32	case	_	start_char=1083|end_char=1086|ner=O
+31	het	het	DET	LID|bep|stan|evon	Definite=Def	32	det	_	start_char=1087|end_char=1090|ner=O
+32	zuidwesten	zuidwesten	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	29	nmod	_	start_char=1091|end_char=1101|ner=O
+33	van	van	ADP	VZ|init	_	34	case	_	start_char=1102|end_char=1105|ner=O
+34	Nebraska	Nebraska	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	32	nmod	_	start_char=1106|end_char=1114|ner=S-LOC|SpaceAfter=No
+35	,	,	PUNCT	LET	_	43	punct	_	start_char=1114|end_char=1115|ner=O
+36	en	en	CCONJ	VG|neven	_	43	cc	_	start_char=1116|end_char=1118|ner=O
+37	hadden	hebben	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	43	aux	_	start_char=1119|end_char=1125|ner=O
+38	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	43	expl:pv	_	start_char=1126|end_char=1130|ner=O
+39	op	op	ADP	VZ|init	_	41	case	_	start_char=1131|end_char=1133|ner=O
+40	een	een	DET	LID|onbep|stan|agr	Definite=Ind	41	det	_	start_char=1134|end_char=1137|ner=O
+41	stuk	stuk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	43	obl	_	start_char=1138|end_char=1142|ner=O
+42	land	land	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	41	nmod	_	start_char=1143|end_char=1147|ner=O
+43	gevestigd	vestigen	VERB	WW|vd|vrij|zonder	VerbForm=Part	8	conj	_	start_char=1148|end_char=1157|ner=O|SpaceAfter=No
+44	.	.	PUNCT	LET	_	8	punct	_	start_char=1157|end_char=1158|ner=O
+
+# text = Antone werd beschouwd als heer des huizes en men zei dat hij een veelbelovende jongeman was, met goede vooruitzichten.
+# sent_id = 17
+1	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj:pass	_	start_char=1159|end_char=1165|ner=S-PER
+2	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=1166|end_char=1170|ner=O
+3	beschouwd	beschouwen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=1171|end_char=1180|ner=O
+4	als	als	SCONJ	VG|onder	_	5	mark	_	start_char=1181|end_char=1184|ner=O
+5	heer	heer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	xcomp	_	start_char=1185|end_char=1189|ner=O
+6	des	de	DET	LID|bep|gen|evmo	Definite=Def	7	det	_	start_char=1190|end_char=1193|ner=O
+7	huizes	huis	NOUN	N|soort|ev|basis|gen	Number=Sing	5	nmod	_	start_char=1194|end_char=1200|ner=O
+8	en	en	CCONJ	VG|neven	_	10	cc	_	start_char=1201|end_char=1203|ner=O
+9	men	men	PRON	VNW|pers|pron|nomin|red|3p|ev|masc	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	start_char=1204|end_char=1207|ner=O
+10	zei	zeggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1208|end_char=1211|ner=O
+11	dat	dat	SCONJ	VG|onder	_	15	mark	_	start_char=1212|end_char=1215|ner=O
+12	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	15	nsubj	_	start_char=1216|end_char=1219|ner=O
+13	een	een	DET	LID|onbep|stan|agr	Definite=Ind	15	det	_	start_char=1220|end_char=1223|ner=O
+14	veelbelovende	veelbelovend	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	amod	_	start_char=1224|end_char=1237|ner=O
+15	jongeman	jongeman	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	ccomp	_	start_char=1238|end_char=1246|ner=O
+16	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	15	cop	_	start_char=1247|end_char=1250|ner=O|SpaceAfter=No
+17	,	,	PUNCT	LET	_	20	punct	_	start_char=1250|end_char=1251|ner=O
+18	met	met	ADP	VZ|init	_	20	case	_	start_char=1252|end_char=1255|ner=O
+19	goede	goed	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	20	amod	_	start_char=1256|end_char=1261|ner=O
+20	vooruitzichten	vooruitzicht	NOUN	N|soort|mv|basis	Number=Plur	10	obl:arg	_	start_char=1262|end_char=1276|ner=O|SpaceAfter=No
+21	.	.	PUNCT	LET	_	3	punct	_	start_char=1276|end_char=1277|ner=O
+
+# text = Het was geen geheim dat hij gierig en onbetrouwbaar was, maar dat deed er niet toe.
+# sent_id = 18
+1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	4	expl	_	start_char=1278|end_char=1281|ner=O
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	start_char=1282|end_char=1285|ner=O
+3	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	4	det	_	start_char=1286|end_char=1290|ner=O
+4	geheim	geheim	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	_	start_char=1291|end_char=1297|ner=O
+5	dat	dat	SCONJ	VG|onder	_	7	mark	_	start_char=1298|end_char=1301|ner=O
+6	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	start_char=1302|end_char=1305|ner=O
+7	gierig	gierig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	csubj	_	start_char=1306|end_char=1312|ner=O
+8	en	en	CCONJ	VG|neven	_	9	cc	_	start_char=1313|end_char=1315|ner=O
+9	onbetrouwbaar	onbetrouwbaar	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	conj	_	start_char=1316|end_char=1329|ner=O
+10	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	start_char=1330|end_char=1333|ner=O|SpaceAfter=No
+11	,	,	PUNCT	LET	_	14	punct	_	start_char=1333|end_char=1334|ner=O
+12	maar	maar	CCONJ	VG|neven	_	14	cc	_	start_char=1335|end_char=1339|ner=O
+13	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	14	nsubj	_	start_char=1340|end_char=1343|ner=O
+14	deed	doen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	conj	_	start_char=1344|end_char=1348|ner=O
+15	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	14	obl:arg	_	start_char=1349|end_char=1351|ner=O
+16	niet	niet	ADV	BW	_	14	advmod	_	start_char=1352|end_char=1356|ner=O
+17	toe	toe	ADP	VZ|fin	_	15	case	_	start_char=1357|end_char=1360|ner=O|SpaceAfter=No
+18	.	.	PUNCT	LET	_	4	punct	_	start_char=1360|end_char=1361|ner=O
+
+# text = Zijn mais stond er van de hele provincie het beste bij, en zijn tarwe leverde steevast meer op dan die van andere mannen.
+# sent_id = 19
+1	Zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=1362|end_char=1366|ner=O
+2	mais	mais	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	start_char=1367|end_char=1371|ner=O
+3	stond	staan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=1372|end_char=1377|ner=O
+4	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	3	obl:arg	_	start_char=1378|end_char=1380|ner=O
+5	van	van	ADP	VZ|init	_	8	case	_	start_char=1381|end_char=1384|ner=O
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	start_char=1385|end_char=1387|ner=O
+7	hele	heel	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	start_char=1388|end_char=1392|ner=O
+8	provincie	provincie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	start_char=1393|end_char=1402|ner=O
+9	het	het	DET	LID|bep|stan|evon	Definite=Def	3	compound:prt	_	start_char=1403|end_char=1406|ner=O
+10	beste	goed	ADJ	ADJ|nom|sup|met-e|zonder-n|stan	Degree=Sup	9	fixed	_	start_char=1407|end_char=1412|ner=O
+11	bij	bij	ADP	VZ|fin	_	4	case	_	start_char=1413|end_char=1416|ner=O|SpaceAfter=No
+12	,	,	PUNCT	LET	_	16	punct	_	start_char=1416|end_char=1417|ner=O
+13	en	en	CCONJ	VG|neven	_	16	cc	_	start_char=1418|end_char=1420|ner=O
+14	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=1421|end_char=1425|ner=O
+15	tarwe	tarwe	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	_	start_char=1426|end_char=1431|ner=O
+16	leverde	op_leveren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1432|end_char=1439|ner=O
+17	steevast	steevast	ADV	BW	_	16	advmod	_	start_char=1440|end_char=1448|ner=O
+18	meer	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|comp	_	16	advmod	_	start_char=1449|end_char=1453|ner=O
+19	op	op	ADP	VZ|fin	_	16	compound:prt	_	start_char=1454|end_char=1456|ner=O
+20	dan	dan	SCONJ	VG|onder	_	21	mark	_	start_char=1457|end_char=1460|ner=O
+21	die	die	PRON	VNW|aanw|pron|stan|vol|3|getal	Person=3|PronType=Dem	18	advcl	_	start_char=1461|end_char=1464|ner=O
+22	van	van	ADP	VZ|init	_	24	case	_	start_char=1465|end_char=1468|ner=O
+23	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	24	amod	_	start_char=1469|end_char=1475|ner=O
+24	mannen	man	NOUN	N|soort|mv|basis	Number=Plur	21	nmod	_	start_char=1476|end_char=1482|ner=O|SpaceAfter=No
+25	.	.	PUNCT	LET	_	3	punct	_	start_char=1482|end_char=1483|ner=O|SpacesAfter=\n
+
+# text = Over Peter wist men weinig en niemand had een goed woord voor hem over.
+# sent_id = 20
+1	Over	over	ADP	VZ|init	_	2	case	_	start_char=1484|end_char=1488|ner=O
+2	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	start_char=1489|end_char=1494|ner=S-PER
+3	wist	weten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=1495|end_char=1499|ner=O
+4	men	men	PRON	VNW|pers|pron|nomin|red|3p|ev|masc	Case=Nom|Person=3|PronType=Prs	3	nsubj	_	start_char=1500|end_char=1503|ner=O
+5	weinig	weinig	ADV	VNW|onbep|grad|stan|vrij|zonder|basis	_	3	obj	_	start_char=1504|end_char=1510|ner=O
+6	en	en	CCONJ	VG|neven	_	8	cc	_	start_char=1511|end_char=1513|ner=O
+7	niemand	niemand	PRON	VNW|onbep|pron|stan|vol|3p|ev	Person=3|PronType=Ind	8	nsubj	_	start_char=1514|end_char=1521|ner=O
+8	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=1522|end_char=1525|ner=O
+9	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	_	start_char=1526|end_char=1529|ner=O
+10	goed	goed	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	11	amod	_	start_char=1530|end_char=1534|ner=O
+11	woord	woord	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	obj	_	start_char=1535|end_char=1540|ner=O
+12	voor	voor	ADP	VZ|init	_	13	case	_	start_char=1541|end_char=1545|ner=O
+13	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	8	obl	_	start_char=1546|end_char=1549|ner=O
+14	over	over	ADP	VZ|fin	_	8	compound:prt	_	start_char=1550|end_char=1554|ner=O|SpaceAfter=No
+15	.	.	PUNCT	LET	_	3	punct	_	start_char=1554|end_char=1555|ner=O
+
+# text = Als hij lang genoeg aan Antones aandacht ontsnapte om zijn hoed of jas voor whisky te verpanden, ging hij meteen aan de fles.
+# sent_id = 21
+1	Als	als	SCONJ	VG|onder	_	8	mark	_	start_char=1556|end_char=1559|ner=O
+2	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	8	nsubj	_	start_char=1560|end_char=1563|ner=O
+3	lang	lang	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	advmod	_	start_char=1564|end_char=1568|ner=O
+4	genoeg	genoeg	ADV	BW	_	8	advmod	_	start_char=1569|end_char=1575|ner=O
+5	aan	aan	ADP	VZ|init	_	7	case	_	start_char=1576|end_char=1579|ner=O
+6	Antones	Antones	PROPN	N|eigen|ev|basis|gen|stan	Gender=Com,Neut|Number=Sing	7	nmod:poss	_	start_char=1580|end_char=1587|ner=S-PER
+7	aandacht	aandacht	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl:arg	_	start_char=1588|end_char=1596|ner=O
+8	ontsnapte	ontsnappen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	advcl	_	start_char=1597|end_char=1606|ner=O
+9	om	om	ADP	VZ|init	_	17	mark	_	start_char=1607|end_char=1609|ner=O
+10	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=1610|end_char=1614|ner=O
+11	hoed	hoed	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obj	_	start_char=1615|end_char=1619|ner=O
+12	of	of	CCONJ	VG|neven	_	13	cc	_	start_char=1620|end_char=1622|ner=O
+13	jas	jas	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	conj	_	start_char=1623|end_char=1626|ner=O
+14	voor	voor	ADP	VZ|init	_	15	case	_	start_char=1627|end_char=1631|ner=O
+15	whisky	whisky	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obl	_	start_char=1632|end_char=1638|ner=O
+16	te	te	ADP	VZ|init	_	17	mark	_	start_char=1639|end_char=1641|ner=O
+17	verpanden	verpanden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	advcl	_	start_char=1642|end_char=1651|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	8	punct	_	start_char=1651|end_char=1652|ner=O
+19	ging	gaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=1653|end_char=1657|ner=O
+20	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	start_char=1658|end_char=1661|ner=O
+21	meteen	meteen	ADV	BW	_	19	advmod	_	start_char=1662|end_char=1668|ner=O
+22	aan	aan	ADP	VZ|init	_	24	case	_	start_char=1669|end_char=1672|ner=O
+23	de	de	DET	LID|bep|stan|rest	Definite=Def	24	det	_	start_char=1673|end_char=1675|ner=O
+24	fles	fles	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	obl	_	start_char=1676|end_char=1680|ner=O|SpaceAfter=No
+25	.	.	PUNCT	LET	_	19	punct	_	start_char=1680|end_char=1681|ner=O
+
+# text = Er waren in feite maar twee dingen die hij nooit zou verpanden: zijn pijp en zijn viool.
+# sent_id = 22
+1	Er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	2	advmod	_	start_char=1682|end_char=1684|ner=O
+2	waren	zijn	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	start_char=1685|end_char=1690|ner=O
+3	in	in	ADP	VZ|init	_	2	obl	_	start_char=1691|end_char=1693|ner=O
+4	feite	feit	NOUN	N|soort|ev|basis|dat	Number=Sing	3	fixed	_	start_char=1694|end_char=1699|ner=O
+5	maar	maar	ADV	BW	_	2	advmod	_	start_char=1700|end_char=1704|ner=O
+6	twee	twee	NUM	TW|hoofd|prenom|stan	_	7	nummod	_	start_char=1705|end_char=1709|ner=O
+7	dingen	ding	NOUN	N|soort|mv|basis	Number=Plur	2	nsubj	_	start_char=1710|end_char=1716|ner=O
+8	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	12	obj	_	start_char=1717|end_char=1720|ner=O
+9	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	start_char=1721|end_char=1724|ner=O
+10	nooit	nooit	ADV	BW	_	12	advmod	_	start_char=1725|end_char=1730|ner=O
+11	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	_	start_char=1731|end_char=1734|ner=O
+12	verpanden	verpanden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	7	acl:relcl	_	start_char=1735|end_char=1744|ner=O|SpaceAfter=No
+13	:	:	PUNCT	LET	_	15	punct	_	start_char=1744|end_char=1745|ner=O
+14	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=1746|end_char=1750|ner=O
+15	pijp	pijp	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	appos	_	start_char=1751|end_char=1755|ner=O
+16	en	en	CCONJ	VG|neven	_	18	cc	_	start_char=1756|end_char=1758|ner=O
+17	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=1759|end_char=1763|ner=O
+18	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	conj	_	start_char=1764|end_char=1769|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	2	punct	_	start_char=1769|end_char=1770|ner=O
+
+# text = Hij was een luie, verstrooide oude man die liever viool speelde dan velden ploegde, al nam dat niet weg dat Antone hen allemaal aan het werk zette.
+# sent_id = 23
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	8	nsubj	_	start_char=1771|end_char=1774|ner=O
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	cop	_	start_char=1775|end_char=1778|ner=O
+3	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	_	start_char=1779|end_char=1782|ner=O
+4	luie	lui	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	start_char=1783|end_char=1787|ner=O|SpaceAfter=No
+5	,	,	PUNCT	LET	_	4	punct	_	start_char=1787|end_char=1788|ner=O
+6	verstrooide	verstrooien	VERB	WW|vd|prenom|met-e	VerbForm=Part	8	amod	_	start_char=1789|end_char=1800|ner=O
+7	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	start_char=1801|end_char=1805|ner=O
+8	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	start_char=1806|end_char=1809|ner=O
+9	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	12	nsubj	_	start_char=1810|end_char=1813|ner=O
+10	liever	liever	ADV	BW	_	12	advmod	_	start_char=1814|end_char=1820|ner=O
+11	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obj	_	start_char=1821|end_char=1826|ner=O
+12	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=1827|end_char=1834|ner=O
+13	dan	dan	SCONJ	VG|onder	_	14	mark	_	start_char=1835|end_char=1838|ner=O
+14	velden	velden	NOUN	N|soort|mv|basis	Number=Plur	15	advcl	_	start_char=1839|end_char=1845|ner=O
+15	ploegde	ploegen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=1846|end_char=1853|ner=O|SpaceAfter=No
+16	,	,	PUNCT	LET	_	18	punct	_	start_char=1853|end_char=1854|ner=O
+17	al	al	SCONJ	VG|onder	_	18	mark	_	start_char=1855|end_char=1857|ner=O
+18	nam	nemen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=1858|end_char=1861|ner=O
+19	dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	18	nsubj	_	start_char=1862|end_char=1865|ner=O
+20	niet	niet	ADV	BW	_	18	advmod	_	start_char=1866|end_char=1870|ner=O
+21	weg	weg	ADV	BW	_	18	compound:prt	_	start_char=1871|end_char=1874|ner=O
+22	dat	dat	SCONJ	VG|onder	_	29	mark	_	start_char=1875|end_char=1878|ner=O
+23	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	29	nsubj	_	start_char=1879|end_char=1885|ner=S-PER
+24	hen	hen	PRON	VNW|pers|pron|obl|vol|3p|mv	Case=Acc|Person=3|PronType=Prs	29	obj	_	start_char=1886|end_char=1889|ner=O
+25	allemaal	allemaal	ADV	BW	_	29	advmod	_	start_char=1890|end_char=1898|ner=O
+26	aan	aan	ADP	VZ|init	_	29	compound:prt	_	start_char=1899|end_char=1902|ner=O
+27	het	het	DET	LID|bep|stan|evon	Definite=Def	26	fixed	_	start_char=1903|end_char=1906|ner=O
+28	werk	werk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	26	fixed	_	start_char=1907|end_char=1911|ner=O
+29	zette	zetten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	18	ccomp	_	start_char=1912|end_char=1917|ner=O|SpaceAfter=No
+30	.	.	PUNCT	LET	_	8	punct	_	start_char=1917|end_char=1918|ner=O
+
+# text = In het huis waar Antone de baas was moest iedereen, van het drie jaar oude knaapje tot de oude man van zestig, zijn kostje verdienen.
+# sent_id = 24
+1	In	in	ADP	VZ|init	_	3	case	_	start_char=1919|end_char=1921|ner=O
+2	het	het	DET	LID|bep|stan|evon	Definite=Def	3	det	_	start_char=1922|end_char=1925|ner=O
+3	huis	huis	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	27	obl	_	start_char=1926|end_char=1930|ner=O
+4	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	7	advmod	_	start_char=1931|end_char=1935|ner=O
+5	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	_	start_char=1936|end_char=1942|ner=S-PER
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	start_char=1943|end_char=1945|ner=O
+7	baas	baas	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	acl:relcl	_	start_char=1946|end_char=1950|ner=O
+8	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	start_char=1951|end_char=1954|ner=O
+9	moest	moeten	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	27	aux	_	start_char=1955|end_char=1960|ner=O
+10	iedereen	iedereen	PRON	VNW|onbep|pron|stan|vol|3p|ev	Person=3|PronType=Ind	27	nsubj	_	start_char=1961|end_char=1969|ner=O|SpaceAfter=No
+11	,	,	PUNCT	LET	_	17	punct	_	start_char=1969|end_char=1970|ner=O
+12	van	van	ADP	VZ|init	_	15	case	_	start_char=1971|end_char=1974|ner=O
+13	het	het	DET	LID|bep|stan|evon	Definite=Def	15	det	_	start_char=1975|end_char=1978|ner=O
+14	drie	drie	NUM	TW|hoofd|prenom|stan	_	15	nummod	_	start_char=1979|end_char=1983|ner=O
+15	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	obl	_	start_char=1984|end_char=1988|ner=O
+16	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	17	amod	_	start_char=1989|end_char=1993|ner=O
+17	knaapje	knaap	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	10	appos	_	start_char=1994|end_char=2001|ner=O
+18	tot	tot	ADP	VZ|init	_	21	case	_	start_char=2002|end_char=2005|ner=O
+19	de	de	DET	LID|bep|stan|rest	Definite=Def	21	det	_	start_char=2006|end_char=2008|ner=O
+20	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	21	amod	_	start_char=2009|end_char=2013|ner=O
+21	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nmod	_	start_char=2014|end_char=2017|ner=O
+22	van	van	ADP	VZ|init	_	23	case	_	start_char=2018|end_char=2021|ner=O
+23	zestig	zestig	NUM	TW|hoofd|vrij	_	21	nmod	_	start_char=2022|end_char=2028|ner=O|SpaceAfter=No
+24	,	,	PUNCT	LET	_	10	punct	_	start_char=2028|end_char=2029|ner=O
+25	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=2030|end_char=2034|ner=O
+26	kostje	kost	NOUN	N|soort|mv|basis	Number=Plur	27	obj	_	start_char=2035|end_char=2041|ner=O
+27	verdienen	verdienen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=2042|end_char=2051|ner=O|SpaceAfter=No
+28	.	.	PUNCT	LET	_	27	punct	_	start_char=2051|end_char=2052|ner=O
+
+# text = Toch zei men dat Peter niets waard was, en een blok aan het been van Antone, zijn zoon, die nooit dronk en een veel betere man was dan zijn vader ooit was geweest.
+# sent_id = 25
+1	Toch	toch	ADV	BW	_	2	advmod	_	start_char=2053|end_char=2057|ner=O
+2	zei	zeggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2058|end_char=2061|ner=O
+3	men	men	PRON	VNW|pers|pron|nomin|red|3p|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=2062|end_char=2065|ner=O
+4	dat	dat	SCONJ	VG|onder	_	7	mark	_	start_char=2066|end_char=2069|ner=O
+5	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	_	start_char=2070|end_char=2075|ner=S-PER
+6	niets	niets	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	7	obj	_	start_char=2076|end_char=2081|ner=O
+7	waard	waard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	ccomp	_	start_char=2082|end_char=2087|ner=O
+8	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	start_char=2088|end_char=2091|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	12	punct	_	start_char=2091|end_char=2092|ner=O
+10	en	en	CCONJ	VG|neven	_	12	cc	_	start_char=2093|end_char=2095|ner=O
+11	een	een	DET	LID|onbep|stan|agr	Definite=Ind	12	det	_	start_char=2096|end_char=2099|ner=O
+12	blok	blok	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	conj	_	start_char=2100|end_char=2104|ner=O
+13	aan	aan	ADP	VZ|init	_	17	case	_	start_char=2105|end_char=2108|ner=O
+14	het	het	DET	LID|bep|stan|evon	Definite=Def	13	fixed	_	start_char=2109|end_char=2112|ner=O
+15	been	been	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	13	fixed	_	start_char=2113|end_char=2117|ner=O
+16	van	van	ADP	VZ|init	_	13	fixed	_	start_char=2118|end_char=2121|ner=O
+17	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	12	nmod	_	start_char=2122|end_char=2128|ner=S-PER|SpaceAfter=No
+18	,	,	PUNCT	LET	_	20	punct	_	start_char=2128|end_char=2129|ner=O
+19	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=2130|end_char=2134|ner=O
+20	zoon	zoon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	appos	_	start_char=2135|end_char=2139|ner=O|SpaceAfter=No
+21	,	,	PUNCT	LET	_	24	punct	_	start_char=2139|end_char=2140|ner=O
+22	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	24	nsubj	_	start_char=2141|end_char=2144|ner=O
+23	nooit	nooit	ADV	BW	_	24	advmod	_	start_char=2145|end_char=2150|ner=O
+24	dronk	drinken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	nmod	_	start_char=2151|end_char=2156|ner=O
+25	en	en	CCONJ	VG|neven	_	29	cc	_	start_char=2157|end_char=2159|ner=O
+26	een	een	DET	LID|onbep|stan|agr	Definite=Ind	29	det	_	start_char=2160|end_char=2163|ner=O
+27	veel	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|basis	_	28	advmod	_	start_char=2164|end_char=2168|ner=O
+28	betere	goed	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	29	amod	_	start_char=2169|end_char=2175|ner=O
+29	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	conj	_	start_char=2176|end_char=2179|ner=O
+30	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	29	cop	_	start_char=2180|end_char=2183|ner=O
+31	dan	dan	SCONJ	VG|onder	_	33	mark	_	start_char=2184|end_char=2187|ner=O
+32	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=2188|end_char=2192|ner=O
+33	vader	vader	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	28	advcl	_	start_char=2193|end_char=2198|ner=O
+34	ooit	ooit	ADV	BW	_	33	amod	_	start_char=2199|end_char=2203|ner=O
+35	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	29	aux	_	start_char=2204|end_char=2207|ner=O
+36	geweest	zijn	AUX	WW|vd|vrij|zonder	VerbForm=Part	29	cop	_	start_char=2208|end_char=2215|ner=O|SpaceAfter=No
+37	.	.	PUNCT	LET	_	2	punct	_	start_char=2215|end_char=2216|ner=O
+
+# text = Peter liet de mensen maar praten.
+# sent_id = 26
+1	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=2217|end_char=2222|ner=S-PER
+2	liet	laten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2223|end_char=2227|ner=O
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	start_char=2228|end_char=2230|ner=O
+4	mensen	mens	NOUN	N|soort|mv|basis	Number=Plur	2	obj	_	start_char=2231|end_char=2237|ner=O
+5	maar	maar	ADV	BW	_	6	advmod	_	start_char=2238|end_char=2242|ner=O
+6	praten	praten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=2243|end_char=2249|ner=O|SpaceAfter=No
+7	.	.	PUNCT	LET	_	2	punct	_	start_char=2249|end_char=2250|ner=O
+
+# text = Hij had een hekel aan dit land, aan de mensen en bovenal aan het ploegen.
+# sent_id = 27
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=2251|end_char=2254|ner=O
+2	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2255|end_char=2258|ner=O
+3	een	een	DET	LID|onbep|stan|agr	Definite=Ind	4	det	_	start_char=2259|end_char=2262|ner=O
+4	hekel	hekel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=2263|end_char=2268|ner=O
+5	aan	aan	ADP	VZ|init	_	7	case	_	start_char=2269|end_char=2272|ner=O
+6	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	7	det	_	start_char=2273|end_char=2276|ner=O
+7	land	land	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	nmod	_	start_char=2277|end_char=2281|ner=O|SpaceAfter=No
+8	,	,	PUNCT	LET	_	11	punct	_	start_char=2281|end_char=2282|ner=O
+9	aan	aan	ADP	VZ|init	_	11	case	_	start_char=2283|end_char=2286|ner=O
+10	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	_	start_char=2287|end_char=2289|ner=O
+11	mensen	mens	NOUN	N|soort|mv|basis	Number=Plur	7	conj	_	start_char=2290|end_char=2296|ner=O
+12	en	en	CCONJ	VG|neven	_	16	cc	_	start_char=2297|end_char=2299|ner=O
+13	bovenal	bovenal	ADV	BW	_	16	amod	_	start_char=2300|end_char=2307|ner=O
+14	aan	aan	ADP	VZ|init	_	16	case	_	start_char=2308|end_char=2311|ner=O
+15	het	het	DET	LID|bep|stan|evon	Definite=Def	16	det	_	start_char=2312|end_char=2315|ner=O
+16	ploegen	ploeg	NOUN	N|soort|mv|basis	Number=Plur	11	conj	_	start_char=2316|end_char=2323|ner=O|SpaceAfter=No
+17	.	.	PUNCT	LET	_	2	punct	_	start_char=2323|end_char=2324|ner=O
+
+# text = Hij had erge heimwee naar Bohemen.
+# sent_id = 28
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=2325|end_char=2328|ner=O
+2	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2329|end_char=2332|ner=O
+3	erge	erg	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	amod	_	start_char=2333|end_char=2337|ner=O
+4	heimwee	heimwee	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=2338|end_char=2345|ner=O
+5	naar	naar	ADP	VZ|init	_	6	case	_	start_char=2346|end_char=2350|ner=O
+6	Bohemen	Bohemen	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	_	start_char=2351|end_char=2358|ner=S-LOC|SpaceAfter=No
+7	.	.	PUNCT	LET	_	2	punct	_	start_char=2358|end_char=2359|ner=O
+
+# text = Lang geleden, slechts acht jaar volgens de kalender, maar voor Peter leken het acht eeuwen, was hij tweede violist geweest in de grote schouwburg in Praag.
+# sent_id = 29
+1	Lang	lang	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	_	start_char=2360|end_char=2364|ner=O
+2	geleden	geleden	ADV	BW	_	0	root	_	start_char=2365|end_char=2372|ner=O|SpaceAfter=No
+3	,	,	PUNCT	LET	_	6	punct	_	start_char=2372|end_char=2373|ner=O
+4	slechts	slechts	ADV	BW	_	6	amod	_	start_char=2374|end_char=2381|ner=O
+5	acht	acht	NUM	TW|hoofd|prenom|stan	_	6	nummod	_	start_char=2382|end_char=2386|ner=O
+6	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	parataxis	_	start_char=2387|end_char=2391|ner=O
+7	volgens	volgens	ADP	VZ|init	_	9	case	_	start_char=2392|end_char=2399|ner=O
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	start_char=2400|end_char=2402|ner=O
+9	kalender	kalender	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	start_char=2403|end_char=2411|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	14	punct	_	start_char=2411|end_char=2412|ner=O
+11	maar	maar	CCONJ	VG|neven	_	14	cc	_	start_char=2413|end_char=2417|ner=O
+12	voor	voor	ADP	VZ|init	_	13	case	_	start_char=2418|end_char=2422|ner=O
+13	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	_	start_char=2423|end_char=2428|ner=S-PER
+14	leken	lijken	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	2	conj	_	start_char=2429|end_char=2434|ner=O
+15	het	het	DET	LID|bep|stan|evon	Definite=Def	17	det	_	start_char=2435|end_char=2438|ner=O
+16	acht	acht	NUM	TW|hoofd|prenom|stan	_	17	nummod	_	start_char=2439|end_char=2443|ner=O
+17	eeuwen	eeuw	NOUN	N|soort|mv|basis	Number=Plur	14	nsubj	_	start_char=2444|end_char=2450|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	14	punct	_	start_char=2450|end_char=2451|ner=O
+19	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	22	aux	_	start_char=2452|end_char=2455|ner=O
+20	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	22	nsubj	_	start_char=2456|end_char=2459|ner=O
+21	tweede	twee	ADJ	TW|rang|prenom|stan	_	22	amod	_	start_char=2460|end_char=2466|ner=O
+22	violist	violist	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	conj	_	start_char=2467|end_char=2474|ner=O
+23	geweest	zijn	AUX	WW|vd|vrij|zonder	VerbForm=Part	22	cop	_	start_char=2475|end_char=2482|ner=O
+24	in	in	ADP	VZ|init	_	27	case	_	start_char=2483|end_char=2485|ner=O
+25	de	de	DET	LID|bep|stan|rest	Definite=Def	27	det	_	start_char=2486|end_char=2488|ner=O
+26	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	27	amod	_	start_char=2489|end_char=2494|ner=O
+27	schouwburg	schouwburg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	obl	_	start_char=2495|end_char=2505|ner=O
+28	in	in	ADP	VZ|init	_	29	case	_	start_char=2506|end_char=2508|ner=O
+29	Praag	Praag	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	27	nmod	_	start_char=2509|end_char=2514|ner=S-LOC|SpaceAfter=No
+30	.	.	PUNCT	LET	_	2	punct	_	start_char=2514|end_char=2515|ner=O
+
+# text = Hij was op jonge leeftijd bij de schouwburg gegaan en was daar zijn hele leven gebleven, tot hij door een beroerte verlamd raakte en zijn arm zo zwak was dat zijn strijkstok trilde.
+# sent_id = 30
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	9	nsubj	_	start_char=2516|end_char=2519|ner=O
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	9	aux	_	start_char=2520|end_char=2523|ner=O
+3	op	op	ADP	VZ|init	_	5	case	_	start_char=2524|end_char=2526|ner=O
+4	jonge	jong	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	5	amod	_	start_char=2527|end_char=2532|ner=O
+5	leeftijd	leeftijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	start_char=2533|end_char=2541|ner=O
+6	bij	bij	ADP	VZ|init	_	8	case	_	start_char=2542|end_char=2545|ner=O
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	start_char=2546|end_char=2548|ner=O
+8	schouwburg	schouwburg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	start_char=2549|end_char=2559|ner=O
+9	gegaan	gaan	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=2560|end_char=2566|ner=O
+10	en	en	CCONJ	VG|neven	_	16	cc	_	start_char=2567|end_char=2569|ner=O
+11	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux	_	start_char=2570|end_char=2573|ner=O
+12	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	16	advmod	_	start_char=2574|end_char=2578|ner=O
+13	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=2579|end_char=2583|ner=O
+14	hele	heel	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	amod	_	start_char=2584|end_char=2588|ner=O
+15	leven	leven	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	xcomp	_	start_char=2589|end_char=2594|ner=O
+16	gebleven	blijven	VERB	WW|vd|vrij|zonder	VerbForm=Part	9	conj	_	start_char=2595|end_char=2603|ner=O|SpaceAfter=No
+17	,	,	PUNCT	LET	_	24	punct	_	start_char=2603|end_char=2604|ner=O
+18	tot	tot	ADP	VZ|init	_	24	mark	_	start_char=2605|end_char=2608|ner=O
+19	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	24	nsubj	_	start_char=2609|end_char=2612|ner=O
+20	door	door	ADP	VZ|init	_	22	case	_	start_char=2613|end_char=2617|ner=O
+21	een	een	DET	LID|onbep|stan|agr	Definite=Ind	22	det	_	start_char=2618|end_char=2621|ner=O
+22	beroerte	beroerte	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	obl	_	start_char=2622|end_char=2630|ner=O
+23	verlamd	verlammen	VERB	WW|vd|vrij|zonder	VerbForm=Part	24	xcomp	_	start_char=2631|end_char=2638|ner=O
+24	raakte	raken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	advcl	_	start_char=2639|end_char=2645|ner=O
+25	en	en	CCONJ	VG|neven	_	29	cc	_	start_char=2646|end_char=2648|ner=O
+26	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=2649|end_char=2653|ner=O
+27	arm	arm	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	29	nsubj	_	start_char=2654|end_char=2657|ner=O
+28	zo	zo	ADV	BW	_	29	advmod	_	start_char=2658|end_char=2660|ner=O
+29	zwak	zwak	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	24	conj	_	start_char=2661|end_char=2665|ner=O
+30	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	29	cop	_	start_char=2666|end_char=2669|ner=O
+31	dat	dat	SCONJ	VG|onder	_	34	mark	_	start_char=2670|end_char=2673|ner=O
+32	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=2674|end_char=2678|ner=O
+33	strijkstok	strijkstok	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	34	nsubj	_	start_char=2679|end_char=2689|ner=O
+34	trilde	na_trillen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	28	advcl	_	start_char=2690|end_char=2696|ner=O|SpaceAfter=No
+35	.	.	PUNCT	LET	_	9	punct	_	start_char=2696|end_char=2697|ner=O
+
+# text = Toen werd hem de deur gewezen.
+# sent_id = 31
+1	Toen	toen	ADV	BW	_	6	advmod	_	start_char=2698|end_char=2702|ner=O
+2	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=2703|end_char=2707|ner=O
+3	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	6	iobj	_	start_char=2708|end_char=2711|ner=O
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	start_char=2712|end_char=2714|ner=O
+5	deur	deur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nsubj:pass	_	start_char=2715|end_char=2719|ner=O
+6	gewezen	wijzen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=2720|end_char=2727|ner=O|SpaceAfter=No
+7	.	.	PUNCT	LET	_	6	punct	_	start_char=2727|end_char=2728|ner=O
+
+# text = Dat waren nogal eens tijden, bij de schouwburg.
+# sent_id = 32
+1	Dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	5	nsubj	_	start_char=2729|end_char=2732|ner=O
+2	waren	zijn	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	5	cop	_	start_char=2733|end_char=2738|ner=O
+3	nogal	nogal	ADV	BW	_	5	advmod	_	start_char=2739|end_char=2744|ner=O
+4	eens	eens	ADV	BW	_	5	advmod	_	start_char=2745|end_char=2749|ner=O
+5	tijden	tijd	NOUN	N|soort|mv|basis	Number=Plur	0	root	_	start_char=2750|end_char=2756|ner=O|SpaceAfter=No
+6	,	,	PUNCT	LET	_	9	punct	_	start_char=2756|end_char=2757|ner=O
+7	bij	bij	ADP	VZ|init	_	9	case	_	start_char=2758|end_char=2761|ner=O
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	start_char=2762|end_char=2764|ner=O
+9	schouwburg	schouwburg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl	_	start_char=2765|end_char=2775|ner=O|SpaceAfter=No
+10	.	.	PUNCT	LET	_	5	punct	_	start_char=2775|end_char=2776|ner=O
+
+# text = Hij had toen meer dan genoeg te drinken en droeg elke avond een rokkostuum, en na de voorstelling was het altijd feest.
+# sent_id = 33
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=2777|end_char=2780|ner=O
+2	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2781|end_char=2784|ner=O
+3	toen	toen	ADV	BW	_	8	advmod	_	start_char=2785|end_char=2789|ner=O
+4	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	8	obj	_	start_char=2790|end_char=2794|ner=O
+5	dan	dan	SCONJ	VG|onder	_	4	fixed	_	start_char=2795|end_char=2798|ner=O
+6	genoeg	genoeg	ADV	BW	_	4	advcl	_	start_char=2799|end_char=2805|ner=O
+7	te	te	ADP	VZ|init	_	8	mark	_	start_char=2806|end_char=2808|ner=O
+8	drinken	drinken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=2809|end_char=2816|ner=O
+9	en	en	CCONJ	VG|neven	_	10	cc	_	start_char=2817|end_char=2819|ner=O
+10	droeg	dragen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=2820|end_char=2825|ner=O
+11	elke	elk	DET	VNW|onbep|det|stan|prenom|met-e|evz	_	12	det	_	start_char=2826|end_char=2830|ner=O
+12	avond	avond	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	_	start_char=2831|end_char=2836|ner=O
+13	een	een	DET	LID|onbep|stan|agr	Definite=Ind	14	det	_	start_char=2837|end_char=2840|ner=O
+14	rokkostuum	rokko_stuum	NOUN	N|soort|ev|basis|onz|stan	Gender=Com|Number=Sing	10	obj	_	start_char=2841|end_char=2851|ner=O|SpaceAfter=No
+15	,	,	PUNCT	LET	_	23	punct	_	start_char=2851|end_char=2852|ner=O
+16	en	en	CCONJ	VG|neven	_	23	cc	_	start_char=2853|end_char=2855|ner=O
+17	na	na	ADP	VZ|init	_	19	case	_	start_char=2856|end_char=2858|ner=O
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	_	start_char=2859|end_char=2861|ner=O
+19	voorstelling	voorstelling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	obl	_	start_char=2862|end_char=2874|ner=O
+20	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	23	cop	_	start_char=2875|end_char=2878|ner=O
+21	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	23	nsubj	_	start_char=2879|end_char=2882|ner=O
+22	altijd	altijd	ADV	BW	_	23	advmod	_	start_char=2883|end_char=2889|ner=O
+23	feest	feest	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	conj	_	start_char=2890|end_char=2895|ner=O|SpaceAfter=No
+24	.	.	PUNCT	LET	_	2	punct	_	start_char=2895|end_char=2896|ner=O
+
+# text = Hij speelde destijds goed, allemachtig, wat speelde hij goed.
+# sent_id = 34
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=2897|end_char=2900|ner=O
+2	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=2901|end_char=2908|ner=O
+3	destijds	destijds	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	_	start_char=2909|end_char=2917|ner=O
+4	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	_	start_char=2918|end_char=2922|ner=O|SpaceAfter=No
+5	,	,	PUNCT	LET	_	6	punct	_	start_char=2922|end_char=2923|ner=O
+6	allemachtig	allemachtig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	parataxis	_	start_char=2924|end_char=2935|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	9	punct	_	start_char=2935|end_char=2936|ner=O
+8	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	9	obj	_	start_char=2937|end_char=2940|ner=O
+9	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=2941|end_char=2948|ner=O
+10	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	9	nsubj	_	start_char=2949|end_char=2952|ner=O
+11	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	9	advmod	_	start_char=2953|end_char=2957|ner=O|SpaceAfter=No
+12	.	.	PUNCT	LET	_	2	punct	_	start_char=2957|end_char=2958|ner=O
+
+# text = Hij kon de noten niet goed lezen, dus speelde hij nooit eerste; maar zijn gave, ja, hij had een gave, aldus Herr Mikilsdoff, de aanvoerder van het orkest.
+# sent_id = 35
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	start_char=2959|end_char=2962|ner=O
+2	kon	kunnen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	aux	_	start_char=2963|end_char=2966|ner=O
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	start_char=2967|end_char=2969|ner=O
+4	noten	noot	NOUN	N|soort|mv|basis	Number=Plur	7	obj	_	start_char=2970|end_char=2975|ner=O
+5	niet	niet	ADV	BW	_	7	advmod	_	start_char=2976|end_char=2980|ner=O
+6	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	advmod	_	start_char=2981|end_char=2985|ner=O
+7	lezen	lezen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=2986|end_char=2991|ner=O|SpaceAfter=No
+8	,	,	PUNCT	LET	_	10	punct	_	start_char=2991|end_char=2992|ner=O
+9	dus	dus	ADV	BW	_	10	advmod	_	start_char=2993|end_char=2996|ner=O
+10	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	parataxis	_	start_char=2997|end_char=3004|ner=O
+11	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	start_char=3005|end_char=3008|ner=O
+12	nooit	nooit	ADV	BW	_	10	advmod	_	start_char=3009|end_char=3014|ner=O
+13	eerste	één	ADJ	TW|rang|nom|zonder-n	_	10	obj	_	start_char=3015|end_char=3021|ner=O|SpaceAfter=No
+14	;	;	PUNCT	LET	_	17	punct	_	start_char=3021|end_char=3022|ner=O
+15	maar	maar	CCONJ	VG|neven	_	17	cc	_	start_char=3023|end_char=3027|ner=O
+16	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=3028|end_char=3032|ner=O
+17	gave	gaaf	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	conj	_	start_char=3033|end_char=3037|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	22	punct	_	start_char=3037|end_char=3038|ner=O
+19	ja	ja	INTJ	TSW	_	17	parataxis	_	start_char=3039|end_char=3041|ner=O|SpaceAfter=No
+20	,	,	PUNCT	LET	_	19	punct	_	start_char=3041|end_char=3042|ner=O
+21	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	22	nsubj	_	start_char=3043|end_char=3046|ner=O
+22	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	parataxis	_	start_char=3047|end_char=3050|ner=O
+23	een	een	DET	LID|onbep|stan|agr	Definite=Ind	24	det	_	start_char=3051|end_char=3054|ner=O
+24	gave	gaaf	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	obj	_	start_char=3055|end_char=3059|ner=O|SpaceAfter=No
+25	,	,	PUNCT	LET	_	27	punct	_	start_char=3059|end_char=3060|ner=O
+26	aldus	aldus	ADV	BW	_	27	case	_	start_char=3061|end_char=3066|ner=O
+27	Herr	Herr	PROPN	SPEC|deeleigen	_	22	parataxis	_	start_char=3067|end_char=3071|ner=B-PER
+28	Mikilsdoff	Mikilsdoff	PROPN	SPEC|deeleigen	_	27	flat	_	start_char=3072|end_char=3082|ner=E-PER|SpaceAfter=No
+29	,	,	PUNCT	LET	_	31	punct	_	start_char=3082|end_char=3083|ner=O
+30	de	de	DET	LID|bep|stan|rest	Definite=Def	31	det	_	start_char=3084|end_char=3086|ner=O
+31	aanvoerder	aanvoerder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	27	appos	_	start_char=3087|end_char=3097|ner=O
+32	van	van	ADP	VZ|init	_	34	case	_	start_char=3098|end_char=3101|ner=O
+33	het	het	DET	LID|bep|stan|evon	Definite=Def	34	det	_	start_char=3102|end_char=3105|ner=O
+34	orkest	orkest	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	31	nmod	_	start_char=3106|end_char=3112|ner=O|SpaceAfter=No
+35	.	.	PUNCT	LET	_	7	punct	_	start_char=3112|end_char=3113|ner=O
+
+# text = Nu dacht Peter weleens dat hij beter zou kunnen ploegen als hij nog steeds kon strijken zoals vroeger.
+# sent_id = 36
+1	Nu	nu	ADV	BW	_	2	advmod	_	start_char=3114|end_char=3116|ner=O
+2	dacht	denken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3117|end_char=3122|ner=O
+3	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=3123|end_char=3128|ner=S-PER
+4	weleens	weleens	ADV	BW	_	2	advmod	_	start_char=3129|end_char=3136|ner=O
+5	dat	dat	SCONJ	VG|onder	_	10	mark	_	start_char=3137|end_char=3140|ner=O
+6	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	start_char=3141|end_char=3144|ner=O
+7	beter	goed	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	10	advmod	_	start_char=3145|end_char=3150|ner=O
+8	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	aux	_	start_char=3151|end_char=3154|ner=O
+9	kunnen	kunnen	AUX	WW|inf|vrij|zonder	VerbForm=Inf	10	aux	_	start_char=3155|end_char=3161|ner=O
+10	ploegen	ploeg	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	ccomp	_	start_char=3162|end_char=3169|ner=O
+11	als	als	SCONJ	VG|onder	_	16	mark	_	start_char=3170|end_char=3173|ner=O
+12	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	16	nsubj	_	start_char=3174|end_char=3177|ner=O
+13	nog	nog	ADV	BW	_	14	advmod	_	start_char=3178|end_char=3181|ner=O
+14	steeds	steeds	ADV	BW	_	16	advmod	_	start_char=3182|end_char=3188|ner=O
+15	kon	kunnen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux	_	start_char=3189|end_char=3192|ner=O
+16	strijken	op_strijken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	10	advcl	_	start_char=3193|end_char=3201|ner=O
+17	zoals	zoals	SCONJ	VG|onder	_	18	mark	_	start_char=3202|end_char=3207|ner=O
+18	vroeger	vroeg	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	16	advcl	_	start_char=3208|end_char=3215|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	2	punct	_	start_char=3215|end_char=3216|ner=O
+
+# text = Hij had daar alle mooie vrouwen van de wereld gezien, alle grote zangers en grote muzikanten.
+# sent_id = 37
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	start_char=3217|end_char=3220|ner=O
+2	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	aux	_	start_char=3221|end_char=3224|ner=O
+3	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	10	advmod	_	start_char=3225|end_char=3229|ner=O
+4	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	6	det	_	start_char=3230|end_char=3234|ner=O
+5	mooie	mooi	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	_	start_char=3235|end_char=3240|ner=O
+6	vrouwen	vrouw	NOUN	N|soort|mv|basis	Number=Plur	10	obj	_	start_char=3241|end_char=3248|ner=O
+7	van	van	ADP	VZ|init	_	9	case	_	start_char=3249|end_char=3252|ner=O
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	start_char=3253|end_char=3255|ner=O
+9	wereld	wereld	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	start_char=3256|end_char=3262|ner=O
+10	gezien	zien	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=3263|end_char=3269|ner=O|SpaceAfter=No
+11	,	,	PUNCT	LET	_	14	punct	_	start_char=3269|end_char=3270|ner=O
+12	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	14	det	_	start_char=3271|end_char=3275|ner=O
+13	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	14	amod	_	start_char=3276|end_char=3281|ner=O
+14	zangers	zanger	NOUN	N|soort|mv|basis	Number=Plur	6	appos	_	start_char=3282|end_char=3289|ner=O
+15	en	en	CCONJ	VG|neven	_	17	cc	_	start_char=3290|end_char=3292|ner=O
+16	grote	groot	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	17	amod	_	start_char=3293|end_char=3298|ner=O
+17	muzikanten	muzikant	NOUN	N|soort|mv|basis	Number=Plur	14	conj	_	start_char=3299|end_char=3309|ner=O|SpaceAfter=No
+18	.	.	PUNCT	LET	_	10	punct	_	start_char=3309|end_char=3310|ner=O
+
+# text = Hij zat in het orkest toen
+# sent_id = 38
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=3311|end_char=3314|ner=O
+2	zat	zitten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3315|end_char=3318|ner=O
+3	in	in	ADP	VZ|init	_	5	case	_	start_char=3319|end_char=3321|ner=O
+4	het	het	DET	LID|bep|stan|evon	Definite=Def	5	det	_	start_char=3322|end_char=3325|ner=O
+5	orkest	orkest	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	_	start_char=3326|end_char=3332|ner=O
+6	toen	toen	SCONJ	VG|onder	_	2	xcomp	_	start_char=3333|end_char=3337|ner=O
+
+# text = Rachel optrad en hij luisterde naar Liszt toen de gravin d’Agoult in de loge naast het toneel zat en de grootmeester witte lelies toewierp.
+# sent_id = 39
+1	Rachel	Rachel	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=3338|end_char=3344|ner=S-PER
+2	optrad	op_treden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3345|end_char=3351|ner=O
+3	en	en	CCONJ	VG|neven	_	5	cc	_	start_char=3352|end_char=3354|ner=O
+4	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	5	nsubj	_	start_char=3355|end_char=3358|ner=O
+5	luisterde	luisteren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=3359|end_char=3368|ner=O
+6	naar	naar	ADP	VZ|init	_	7	case	_	start_char=3369|end_char=3373|ner=O
+7	Liszt	Liszt	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl	_	start_char=3374|end_char=3379|ner=S-PER
+8	toen	toen	SCONJ	VG|onder	_	18	mark	_	start_char=3380|end_char=3384|ner=O
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	start_char=3385|end_char=3387|ner=O
+10	gravin	gravin	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nsubj	_	start_char=3388|end_char=3394|ner=O
+11	d’Agoult	d’Agoult	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	10	appos	_	start_char=3395|end_char=3403|ner=S-PER
+12	in	in	ADP	VZ|init	_	14	case	_	start_char=3404|end_char=3406|ner=O
+13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	_	start_char=3407|end_char=3409|ner=O
+14	loge	loog	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obl	_	start_char=3410|end_char=3414|ner=O
+15	naast	naast	ADP	VZ|init	_	17	case	_	start_char=3415|end_char=3420|ner=O
+16	het	het	DET	LID|bep|stan|evon	Definite=Def	17	det	_	start_char=3421|end_char=3424|ner=O
+17	toneel	toneel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	obl	_	start_char=3425|end_char=3431|ner=O
+18	zat	zitten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	advcl	_	start_char=3432|end_char=3435|ner=O
+19	en	en	CCONJ	VG|neven	_	24	cc	_	start_char=3436|end_char=3438|ner=O
+20	de	de	DET	LID|bep|stan|rest	Definite=Def	21	det	_	start_char=3439|end_char=3441|ner=O
+21	grootmeester	grootmeester	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	nsubj	_	start_char=3442|end_char=3454|ner=O
+22	witte	wit	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	23	amod	_	start_char=3455|end_char=3460|ner=O
+23	lelies	lelie	NOUN	N|soort|mv|basis	Number=Plur	24	obj	_	start_char=3461|end_char=3467|ner=O
+24	toewierp	toe_wieren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	18	conj	_	start_char=3468|end_char=3476|ner=O|SpaceAfter=No
+25	.	.	PUNCT	LET	_	2	punct	_	start_char=3476|end_char=3477|ner=O
+
+# text = Er kwam eens een Franse dame wekenlang optreden, hij was haar naam vergeten.
+# sent_id = 40
+1	Er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	8	advmod	_	start_char=3478|end_char=3480|ner=O
+2	kwam	komen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3481|end_char=3485|ner=O
+3	eens	eens	ADV	BW	_	8	advmod	_	start_char=3486|end_char=3490|ner=O
+4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	6	det	_	start_char=3491|end_char=3494|ner=O
+5	Franse	Frans	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	6	amod	_	start_char=3495|end_char=3501|ner=S-MISC
+6	dame	dame	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=3502|end_char=3506|ner=O
+7	wekenlang	week_lang	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	advmod	_	start_char=3507|end_char=3516|ner=O
+8	optreden	op_treden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=3517|end_char=3525|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	14	punct	_	start_char=3525|end_char=3526|ner=O
+10	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	14	nsubj	_	start_char=3527|end_char=3530|ner=O
+11	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	start_char=3531|end_char=3534|ner=O
+12	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=3535|end_char=3539|ner=O
+13	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obj	_	start_char=3540|end_char=3544|ner=O
+14	vergeten	vergeten	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	parataxis	_	start_char=3545|end_char=3553|ner=O|SpaceAfter=No
+15	.	.	PUNCT	LET	_	2	punct	_	start_char=3553|end_char=3554|ner=O
+
+# text = Ook haar gezicht herinnerde hij zich niet goed, omdat het steeds veranderde, het was geen twee keer hetzelfde.
+# sent_id = 41
+1	Ook	ook	ADV	BW	_	3	amod	_	start_char=3555|end_char=3558|ner=O
+2	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3559|end_char=3563|ner=O
+3	gezicht	gezicht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obj	_	start_char=3564|end_char=3571|ner=O
+4	herinnerde	herinneren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3572|end_char=3582|ner=O
+5	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	4	nsubj	_	start_char=3583|end_char=3586|ner=O
+6	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	expl:pv	_	start_char=3587|end_char=3591|ner=O
+7	niet	niet	ADV	BW	_	4	advmod	_	start_char=3592|end_char=3596|ner=O
+8	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	advmod	_	start_char=3597|end_char=3601|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	13	punct	_	start_char=3601|end_char=3602|ner=O
+10	omdat	omdat	SCONJ	VG|onder	_	13	mark	_	start_char=3603|end_char=3608|ner=O
+11	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	13	nsubj	_	start_char=3609|end_char=3612|ner=O
+12	steeds	steeds	ADV	BW	_	13	advmod	_	start_char=3613|end_char=3619|ner=O
+13	veranderde	veranderen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	advcl	_	start_char=3620|end_char=3630|ner=O|SpaceAfter=No
+14	,	,	PUNCT	LET	_	20	punct	_	start_char=3630|end_char=3631|ner=O
+15	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	20	nsubj	_	start_char=3632|end_char=3635|ner=O
+16	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	20	cop	_	start_char=3636|end_char=3639|ner=O
+17	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	19	det	_	start_char=3640|end_char=3644|ner=O
+18	twee	twee	NUM	TW|hoofd|prenom|stan	_	19	nummod	_	start_char=3645|end_char=3649|ner=O
+19	keer	keer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	_	start_char=3650|end_char=3654|ner=O
+20	hetzelfde	hetzelfde	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	parataxis	_	start_char=3655|end_char=3664|ner=O|SpaceAfter=No
+21	.	.	PUNCT	LET	_	4	punct	_	start_char=3664|end_char=3665|ner=O
+
+# text = Maar hoe mooi het was en de hunkering die het bij mannen opriep, herinnerde hij zich maar al te goed.
+# sent_id = 42
+1	Maar	maar	CCONJ	VG|neven	_	15	mark	_	start_char=3666|end_char=3670|ner=O
+2	hoe	hoe	ADV	BW	_	3	advmod	_	start_char=3671|end_char=3674|ner=O
+3	mooi	mooi	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advcl	_	start_char=3675|end_char=3679|ner=O
+4	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	3	nsubj	_	start_char=3680|end_char=3683|ner=O
+5	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	cop	_	start_char=3684|end_char=3687|ner=O
+6	en	en	CCONJ	VG|neven	_	15	cc	_	start_char=3688|end_char=3690|ner=O
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	start_char=3691|end_char=3693|ner=O
+8	hunkering	hunkering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nsubj	_	start_char=3694|end_char=3703|ner=O
+9	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	13	obj	_	start_char=3704|end_char=3707|ner=O
+10	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	13	obj	_	start_char=3708|end_char=3711|ner=O
+11	bij	bij	ADP	VZ|init	_	12	case	_	start_char=3712|end_char=3715|ner=O
+12	mannen	man	NOUN	N|soort|mv|basis	Number=Plur	13	obl	_	start_char=3716|end_char=3722|ner=O
+13	opriep	op_ropen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=3723|end_char=3729|ner=O|SpaceAfter=No
+14	,	,	PUNCT	LET	_	3	punct	_	start_char=3729|end_char=3730|ner=O
+15	herinnerde	herinneren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3731|end_char=3741|ner=O
+16	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	15	nsubj	_	start_char=3742|end_char=3745|ner=O
+17	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	start_char=3746|end_char=3750|ner=O
+18	maar	maar	ADV	BW	_	15	advmod	_	start_char=3751|end_char=3755|ner=O
+19	al	al	ADV	BW	_	20	advmod	_	start_char=3756|end_char=3758|ner=O
+20	te	te	ADV	BW	_	21	advmod	_	start_char=3759|end_char=3761|ner=O
+21	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advmod	_	start_char=3762|end_char=3766|ner=O|SpaceAfter=No
+22	.	.	PUNCT	LET	_	15	punct	_	start_char=3766|end_char=3767|ner=O
+
+# text = Bovenal herinnerde hij zich haar stem.
+# sent_id = 43
+1	Bovenal	bovenal	ADV	BW	_	2	advmod	_	start_char=3768|end_char=3775|ner=O
+2	herinnerde	herinneren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3776|end_char=3786|ner=O
+3	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=3787|end_char=3790|ner=O
+4	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	expl:pv	_	start_char=3791|end_char=3795|ner=O
+5	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=3796|end_char=3800|ner=O
+6	stem	stem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=3801|end_char=3805|ner=O|SpaceAfter=No
+7	.	.	PUNCT	LET	_	2	punct	_	start_char=3805|end_char=3806|ner=O
+
+# text = Hij kon geen Frans en verstond geen woord van wat ze zei, maar voor hem leek het alsof ze de muziek van Chopin sprak.
+# sent_id = 44
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=3807|end_char=3810|ner=O
+2	kon	kunnen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3811|end_char=3814|ner=O
+3	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	4	det	_	start_char=3815|end_char=3819|ner=O
+4	Frans	Frans	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=3820|end_char=3825|ner=S-MISC
+5	en	en	CCONJ	VG|neven	_	6	cc	_	start_char=3826|end_char=3828|ner=O
+6	verstond	verstaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=3829|end_char=3837|ner=O
+7	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	8	det	_	start_char=3838|end_char=3842|ner=O
+8	woord	woord	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	obj	_	start_char=3843|end_char=3848|ner=O
+9	van	van	ADP	VZ|init	_	12	case	_	start_char=3849|end_char=3852|ner=O
+10	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	12	obj	_	start_char=3853|end_char=3856|ner=O
+11	ze	ze	PRON	VNW|pers|pron|stan|red|3|ev|fem	Person=3|PronType=Prs	12	nsubj	_	start_char=3857|end_char=3859|ner=O
+12	zei	zeggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=3860|end_char=3863|ner=O|SpaceAfter=No
+13	,	,	PUNCT	LET	_	17	punct	_	start_char=3863|end_char=3864|ner=O
+14	maar	maar	CCONJ	VG|neven	_	17	cc	_	start_char=3865|end_char=3869|ner=O
+15	voor	voor	ADP	VZ|init	_	16	case	_	start_char=3870|end_char=3874|ner=O
+16	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	17	obl	_	start_char=3875|end_char=3878|ner=O
+17	leek	lijken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=3879|end_char=3883|ner=O
+18	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	17	nsubj	_	start_char=3884|end_char=3887|ner=O
+19	alsof	alsof	SCONJ	VG|onder	_	25	mark	_	start_char=3888|end_char=3893|ner=O
+20	ze	ze	PRON	VNW|pers|pron|stan|red|3|ev|fem	Person=3|PronType=Prs	25	nsubj	_	start_char=3894|end_char=3896|ner=O
+21	de	de	DET	LID|bep|stan|rest	Definite=Def	22	det	_	start_char=3897|end_char=3899|ner=O
+22	muziek	muziek	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	obj	_	start_char=3900|end_char=3906|ner=O
+23	van	van	ADP	VZ|init	_	24	case	_	start_char=3907|end_char=3910|ner=O
+24	Chopin	Chopin	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	nmod	_	start_char=3911|end_char=3917|ner=S-PER
+25	sprak	spreken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	17	csubj	_	start_char=3918|end_char=3923|ner=O|SpaceAfter=No
+26	.	.	PUNCT	LET	_	2	punct	_	start_char=3923|end_char=3924|ner=O
+
+# text = En haar stem, die zou hij in de andere wereld herkennen, dacht hij.
+# sent_id = 45
+1	En	en	CCONJ	VG|neven	_	14	mark	_	start_char=3925|end_char=3927|ner=O
+2	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3928|end_char=3932|ner=O
+3	stem	stem	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	nsubj	_	start_char=3933|end_char=3937|ner=O|SpaceAfter=No
+4	,	,	PUNCT	LET	_	12	punct	_	start_char=3937|end_char=3938|ner=O
+5	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	12	obj	_	start_char=3939|end_char=3942|ner=O
+6	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	_	start_char=3943|end_char=3946|ner=O
+7	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	12	nsubj	_	start_char=3947|end_char=3950|ner=O
+8	in	in	ADP	VZ|init	_	11	case	_	start_char=3951|end_char=3953|ner=O
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	_	start_char=3954|end_char=3956|ner=O
+10	andere	ander	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	start_char=3957|end_char=3963|ner=O
+11	wereld	wereld	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	_	start_char=3964|end_char=3970|ner=O
+12	herkennen	herkennen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	acl:relcl	_	start_char=3971|end_char=3980|ner=O|SpaceAfter=No
+13	,	,	PUNCT	LET	_	3	punct	_	start_char=3980|end_char=3981|ner=O
+14	dacht	denken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=3982|end_char=3987|ner=O
+15	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	14	nsubj	_	start_char=3988|end_char=3991|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	14	punct	_	start_char=3991|end_char=3992|ner=O
+
+# text = De laatste avond speelde ze in een voorstelling waarin een man haar arm aanraakte en zij hem neerstak.
+# sent_id = 46
+1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	start_char=3993|end_char=3995|ner=O
+2	laatste	laat	ADJ	ADJ|prenom|sup|met-e|stan	Degree=Sup	3	amod	_	start_char=3996|end_char=4003|ner=O
+3	avond	avond	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	start_char=4004|end_char=4009|ner=O
+4	speelde	spelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4010|end_char=4017|ner=O
+5	ze	ze	PRON	VNW|pers|pron|stan|red|3|ev|fem	Person=3|PronType=Prs	4	nsubj	_	start_char=4018|end_char=4020|ner=O
+6	in	in	ADP	VZ|init	_	8	case	_	start_char=4021|end_char=4023|ner=O
+7	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	_	start_char=4024|end_char=4027|ner=O
+8	voorstelling	voorstelling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	start_char=4028|end_char=4040|ner=O
+9	waarin	waarin	ADV	BW	_	14	advmod	_	start_char=4041|end_char=4047|ner=O
+10	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	_	start_char=4048|end_char=4051|ner=O
+11	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	nsubj	_	start_char=4052|end_char=4055|ner=O
+12	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=4056|end_char=4060|ner=O
+13	arm	arm	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obj	_	start_char=4061|end_char=4064|ner=O
+14	aanraakte	aan_raken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	8	acl:relcl	_	start_char=4065|end_char=4074|ner=O
+15	en	en	CCONJ	VG|neven	_	18	cc	_	start_char=4075|end_char=4077|ner=O
+16	zij	zij	PRON	VNW|pers|pron|nomin|vol|3v|ev|fem	Case=Nom|Person=3|PronType=Prs	18	nsubj	_	start_char=4078|end_char=4081|ner=O
+17	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	18	obj	_	start_char=4082|end_char=4085|ner=O
+18	neerstak	neer_steken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	14	conj	_	start_char=4086|end_char=4094|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	4	punct	_	start_char=4094|end_char=4095|ner=O
+
+# text = Toen Peter daar met zijn viool op zijn knie onder het voetlicht tussen de rokende gasbranders zat, keek hij naar haar op en bedacht zich dat hij ook wel zou willen sterven als hij haar arm één keer mocht aanraken en zij hem zou neersteken.
+# sent_id = 47
+1	Toen	toen	SCONJ	VG|onder	_	17	mark	_	start_char=4096|end_char=4100|ner=O
+2	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	nsubj	_	start_char=4101|end_char=4106|ner=S-PER
+3	daar	daar	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	17	advmod	_	start_char=4107|end_char=4111|ner=O
+4	met	met	ADP	VZ|init	_	6	case	_	start_char=4112|end_char=4115|ner=O
+5	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=4116|end_char=4120|ner=O
+6	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obl	_	start_char=4121|end_char=4126|ner=O
+7	op	op	ADP	VZ|init	_	9	case	_	start_char=4127|end_char=4129|ner=O
+8	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=4130|end_char=4134|ner=O
+9	knie	knie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obl	_	start_char=4135|end_char=4139|ner=O
+10	onder	onder	ADP	VZ|init	_	12	case	_	start_char=4140|end_char=4145|ner=O
+11	het	het	DET	LID|bep|stan|evon	Definite=Def	12	det	_	start_char=4146|end_char=4149|ner=O
+12	voetlicht	voetlicht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	obl	_	start_char=4150|end_char=4159|ner=O
+13	tussen	tussen	ADP	VZ|init	_	16	case	_	start_char=4160|end_char=4166|ner=O
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	start_char=4167|end_char=4169|ner=O
+15	rokende	roken	VERB	WW|od|prenom|met-e	VerbForm=Part	16	amod	_	start_char=4170|end_char=4177|ner=O
+16	gasbranders	gasbrander	NOUN	N|soort|mv|basis	Number=Plur	12	nmod	_	start_char=4178|end_char=4189|ner=O
+17	zat	zitten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	advcl	_	start_char=4190|end_char=4193|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	17	punct	_	start_char=4193|end_char=4194|ner=O
+19	keek	kijken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4195|end_char=4199|ner=O
+20	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	19	nsubj	_	start_char=4200|end_char=4203|ner=O
+21	naar	naar	ADP	VZ|init	_	22	case	_	start_char=4204|end_char=4208|ner=O
+22	haar	haar	PRON	VNW|pers|pron|obl|vol|3|getal|fem	Case=Acc|Person=3|PronType=Prs	19	obl	_	start_char=4209|end_char=4213|ner=O
+23	op	op	ADP	VZ|fin	_	19	compound:prt	_	start_char=4214|end_char=4216|ner=O
+24	en	en	CCONJ	VG|neven	_	25	cc	_	start_char=4217|end_char=4219|ner=O
+25	bedacht	bedenken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	19	conj	_	start_char=4220|end_char=4227|ner=O
+26	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	expl:pv	_	start_char=4228|end_char=4232|ner=O
+27	dat	dat	SCONJ	VG|onder	_	32	mark	_	start_char=4233|end_char=4236|ner=O
+28	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	32	nsubj	_	start_char=4237|end_char=4240|ner=O
+29	ook	ook	ADV	BW	_	33	advmod	_	start_char=4241|end_char=4244|ner=O
+30	wel	wel	ADV	BW	_	33	advmod	_	start_char=4245|end_char=4248|ner=O
+31	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	32	aux	_	start_char=4249|end_char=4252|ner=O
+32	willen	willen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	25	ccomp	_	start_char=4253|end_char=4259|ner=O
+33	sterven	sterven	VERB	WW|inf|vrij|zonder	VerbForm=Inf	32	xcomp	_	start_char=4260|end_char=4267|ner=O
+34	als	als	SCONJ	VG|onder	_	41	mark	_	start_char=4268|end_char=4271|ner=O
+35	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	41	nsubj	_	start_char=4272|end_char=4275|ner=O
+36	haar	haar	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	start_char=4276|end_char=4280|ner=O
+37	arm	arm	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	41	obj	_	start_char=4281|end_char=4284|ner=O
+38	één	één	NUM	TW|hoofd|prenom|stan	_	39	nummod	_	start_char=4285|end_char=4288|ner=O
+39	keer	keer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	41	obl	_	start_char=4289|end_char=4293|ner=O
+40	mocht	mogen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	41	aux	_	start_char=4294|end_char=4299|ner=O
+41	aanraken	aan_raken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	25	ccomp	_	start_char=4300|end_char=4308|ner=O
+42	en	en	CCONJ	VG|neven	_	46	cc	_	start_char=4309|end_char=4311|ner=O
+43	zij	zij	PRON	VNW|pers|pron|nomin|vol|3v|ev|fem	Case=Nom|Person=3|PronType=Prs	46	nsubj	_	start_char=4312|end_char=4315|ner=O
+44	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	46	obj	_	start_char=4316|end_char=4319|ner=O
+45	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	46	aux	_	start_char=4320|end_char=4323|ner=O
+46	neersteken	neer_steken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	41	conj	_	start_char=4324|end_char=4334|ner=O|SpaceAfter=No
+47	.	.	PUNCT	LET	_	19	punct	_	start_char=4334|end_char=4335|ner=O
+
+# text = Peter kwam die avond stomdronken thuis bij zijn vrouw.
+# sent_id = 48
+1	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=4336|end_char=4341|ner=S-PER
+2	kwam	komen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4342|end_char=4346|ner=O
+3	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	4	det	_	start_char=4347|end_char=4350|ner=O
+4	avond	avond	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	start_char=4351|end_char=4356|ner=O
+5	stomdronken	stomdronken	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	advmod	_	start_char=4357|end_char=4368|ner=O
+6	thuis	thuis	ADV	BW	_	2	compound:prt	_	start_char=4369|end_char=4374|ner=O
+7	bij	bij	ADP	VZ|init	_	9	case	_	start_char=4375|end_char=4378|ner=O
+8	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=4379|end_char=4383|ner=O
+9	vrouw	vrouw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	start_char=4384|end_char=4389|ner=O|SpaceAfter=No
+10	.	.	PUNCT	LET	_	2	punct	_	start_char=4389|end_char=4390|ner=O
+
+# text = Toen al was hij een dwaze kerel die alleen gaf om muziek en mooie gezichten.
+# sent_id = 49
+1	Toen	toen	SCONJ	VG|onder	_	7	mark	_	start_char=4391|end_char=4395|ner=O
+2	al	al	SCONJ	VG|onder	_	7	mark	_	start_char=4396|end_char=4398|ner=O
+3	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	start_char=4399|end_char=4402|ner=O
+4	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	7	nsubj	_	start_char=4403|end_char=4406|ner=O
+5	een	een	DET	LID|onbep|stan|agr	Definite=Ind	7	det	_	start_char=4407|end_char=4410|ner=O
+6	dwaze	dwaas	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	_	start_char=4411|end_char=4416|ner=O
+7	kerel	kerel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	start_char=4417|end_char=4422|ner=O
+8	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	10	nsubj	_	start_char=4423|end_char=4426|ner=O
+9	alleen	alleen	ADV	BW	_	10	advmod	_	start_char=4427|end_char=4433|ner=O
+10	gaf	geven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=4434|end_char=4437|ner=O
+11	om	om	ADP	VZ|init	_	12	case	_	start_char=4438|end_char=4440|ner=O
+12	muziek	muziek	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl:arg	_	start_char=4441|end_char=4447|ner=O
+13	en	en	CCONJ	VG|neven	_	15	cc	_	start_char=4448|end_char=4450|ner=O
+14	mooie	mooi	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	amod	_	start_char=4451|end_char=4456|ner=O
+15	gezichten	gezicht	NOUN	N|soort|mv|basis	Number=Plur	12	conj	_	start_char=4457|end_char=4466|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	7	punct	_	start_char=4466|end_char=4467|ner=O|SpacesAfter=\n
+
+# text = Nu was alles anders.
+# sent_id = 50
+1	Nu	nu	ADV	BW	_	2	advmod	_	start_char=4468|end_char=4470|ner=O
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4471|end_char=4474|ner=O
+3	alles	alles	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	2	nsubj	_	start_char=4475|end_char=4480|ner=O
+4	anders	ander	ADJ	ADJ|postnom|basis|met-s	Degree=Pos	3	amod	_	start_char=4481|end_char=4487|ner=O|SpaceAfter=No
+5	.	.	PUNCT	LET	_	2	punct	_	start_char=4487|end_char=4488|ner=O
+
+# text = Hij had niets te drinken en weinig te eten, en er was hier alleen maar zon, en gras, en lucht.
+# sent_id = 51
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=4489|end_char=4492|ner=O
+2	had	hebben	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4493|end_char=4496|ner=O
+3	niets	niets	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	5	obj	_	start_char=4497|end_char=4502|ner=O
+4	te	te	ADP	VZ|init	_	5	mark	_	start_char=4503|end_char=4505|ner=O
+5	drinken	drinken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=4506|end_char=4513|ner=O
+6	en	en	CCONJ	VG|neven	_	9	cc	_	start_char=4514|end_char=4516|ner=O
+7	weinig	weinig	PRON	VNW|onbep|grad|stan|vrij|zonder|basis	PronType=Ind	9	obj	_	start_char=4517|end_char=4523|ner=O
+8	te	te	ADP	VZ|init	_	9	mark	_	start_char=4524|end_char=4526|ner=O
+9	eten	eten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	5	conj	_	start_char=4527|end_char=4531|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	13	punct	_	start_char=4531|end_char=4532|ner=O
+11	en	en	CCONJ	VG|neven	_	13	cc	_	start_char=4533|end_char=4535|ner=O
+12	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	13	advmod	_	start_char=4536|end_char=4538|ner=O
+13	was	zijn	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=4539|end_char=4542|ner=O
+14	hier	hier	ADV	VNW|aanw|adv-pron|obl|vol|3o|getal	_	13	advmod	_	start_char=4543|end_char=4547|ner=O
+15	alleen	alleen	ADV	BW	_	13	advmod	_	start_char=4548|end_char=4554|ner=O
+16	maar	maar	ADV	BW	_	13	advmod	_	start_char=4555|end_char=4559|ner=O
+17	zon	zon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nsubj	_	start_char=4560|end_char=4563|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	20	punct	_	start_char=4563|end_char=4564|ner=O
+19	en	en	CCONJ	VG|neven	_	20	cc	_	start_char=4565|end_char=4567|ner=O
+20	gras	gras	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	conj	_	start_char=4568|end_char=4572|ner=O|SpaceAfter=No
+21	,	,	PUNCT	LET	_	23	punct	_	start_char=4572|end_char=4573|ner=O
+22	en	en	CCONJ	VG|neven	_	23	cc	_	start_char=4574|end_char=4576|ner=O
+23	lucht	lucht	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	conj	_	start_char=4577|end_char=4582|ner=O|SpaceAfter=No
+24	.	.	PUNCT	LET	_	2	punct	_	start_char=4582|end_char=4583|ner=O
+
+# text = Hij was bijna alles vergeten, maar sommige dingen herinnerde hij zich haarscherp.
+# sent_id = 52
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	5	nsubj	_	start_char=4584|end_char=4587|ner=O
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	start_char=4588|end_char=4591|ner=O
+3	bijna	bijna	ADV	BW	_	4	amod	_	start_char=4592|end_char=4597|ner=O
+4	alles	alles	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	5	obj	_	start_char=4598|end_char=4603|ner=O
+5	vergeten	vergeten	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=4604|end_char=4612|ner=O|SpaceAfter=No
+6	,	,	PUNCT	LET	_	10	punct	_	start_char=4612|end_char=4613|ner=O
+7	maar	maar	CCONJ	VG|neven	_	10	cc	_	start_char=4614|end_char=4618|ner=O
+8	sommige	sommig	DET	VNW|onbep|det|stan|prenom|met-e|rest	_	9	det	_	start_char=4619|end_char=4626|ner=O
+9	dingen	ding	NOUN	N|soort|mv|basis	Number=Plur	10	obj	_	start_char=4627|end_char=4633|ner=O
+10	herinnerde	herinneren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	conj	_	start_char=4634|end_char=4644|ner=O
+11	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	10	nsubj	_	start_char=4645|end_char=4648|ner=O
+12	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	start_char=4649|end_char=4653|ner=O
+13	haarscherp	haarscherp	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	10	xcomp	_	start_char=4654|end_char=4664|ner=O|SpaceAfter=No
+14	.	.	PUNCT	LET	_	5	punct	_	start_char=4664|end_char=4665|ner=O
+
+# text = Hij hield van zijn viool en van de heilige maagd, en meer dan wat dan ook vreesde hij de Boze, en zijn zoon Antone.
+# sent_id = 53
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=4666|end_char=4669|ner=O
+2	hield	houden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4670|end_char=4675|ner=O
+3	van	van	ADP	VZ|init	_	5	case	_	start_char=4676|end_char=4679|ner=O
+4	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=4680|end_char=4684|ner=O
+5	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl:arg	_	start_char=4685|end_char=4690|ner=O
+6	en	en	CCONJ	VG|neven	_	10	cc	_	start_char=4691|end_char=4693|ner=O
+7	van	van	ADP	VZ|init	_	10	case	_	start_char=4694|end_char=4697|ner=O
+8	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	start_char=4698|end_char=4700|ner=O
+9	heilige	heilig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	10	amod	_	start_char=4701|end_char=4708|ner=O
+10	maagd	maagd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	conj	_	start_char=4709|end_char=4714|ner=O|SpaceAfter=No
+11	,	,	PUNCT	LET	_	18	punct	_	start_char=4714|end_char=4715|ner=O
+12	en	en	CCONJ	VG|neven	_	18	cc	_	start_char=4716|end_char=4718|ner=O
+13	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	18	obj	_	start_char=4719|end_char=4723|ner=O
+14	dan	dan	SCONJ	VG|onder	_	15	fixed	_	start_char=4724|end_char=4727|ner=O
+15	wat	wat	PRON	VNW|vb|pron|stan|vol|3o|ev	Person=3|PronType=Int	13	fixed	_	start_char=4728|end_char=4731|ner=O
+16	dan	dan	ADV	BW	_	15	amod	_	start_char=4732|end_char=4735|ner=O
+17	ook	ook	ADV	BW	_	16	advmod	_	start_char=4736|end_char=4739|ner=O
+18	vreesde	vrezen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=4740|end_char=4747|ner=O
+19	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	18	nsubj	_	start_char=4748|end_char=4751|ner=O
+20	de	de	DET	LID|bep|stan|rest	Definite=Def	21	det	_	start_char=4752|end_char=4754|ner=O
+21	Boze	Boze	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obj	_	start_char=4755|end_char=4759|ner=S-PER|SpaceAfter=No
+22	,	,	PUNCT	LET	_	25	punct	_	start_char=4759|end_char=4760|ner=O
+23	en	en	CCONJ	VG|neven	_	25	cc	_	start_char=4761|end_char=4763|ner=O
+24	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=4764|end_char=4768|ner=O
+25	zoon	zoon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	conj	_	start_char=4769|end_char=4773|ner=O
+26	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	25	appos	_	start_char=4774|end_char=4780|ner=S-PER|SpaceAfter=No
+27	.	.	PUNCT	LET	_	2	punct	_	start_char=4780|end_char=4781|ner=O|SpacesAfter=\n
+
+# text = Het vuur smeulde en het werd koud.
+# sent_id = 54
+1	Het	het	DET	LID|bep|stan|evon	Definite=Def	2	det	_	start_char=4782|end_char=4785|ner=O
+2	vuur	vuur	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nsubj	_	start_char=4786|end_char=4790|ner=O
+3	smeulde	smeulen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4791|end_char=4798|ner=O
+4	en	en	CCONJ	VG|neven	_	6	cc	_	start_char=4799|end_char=4801|ner=O
+5	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	nsubj	_	start_char=4802|end_char=4805|ner=O
+6	werd	worden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=4806|end_char=4810|ner=O
+7	koud	koud	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	6	xcomp	_	start_char=4811|end_char=4815|ner=O|SpaceAfter=No
+8	.	.	PUNCT	LET	_	3	punct	_	start_char=4815|end_char=4816|ner=O
+
+# text = Toch bleef Peter in herinneringen verzonken bij het vuur zitten.
+# sent_id = 55
+1	Toch	toch	ADV	BW	_	10	advmod	_	start_char=4817|end_char=4821|ner=O
+2	bleef	blijven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4822|end_char=4827|ner=O
+3	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	_	start_char=4828|end_char=4833|ner=S-PER
+4	in	in	ADP	VZ|init	_	5	case	_	start_char=4834|end_char=4836|ner=O
+5	herinneringen	herinnering	NOUN	N|soort|mv|basis	Number=Plur	10	obl	_	start_char=4837|end_char=4850|ner=O
+6	verzonken	verzinken	VERB	WW|vd|vrij|zonder	VerbForm=Part	10	advcl	_	start_char=4851|end_char=4860|ner=O
+7	bij	bij	ADP	VZ|init	_	9	case	_	start_char=4861|end_char=4864|ner=O
+8	het	het	DET	LID|bep|stan|evon	Definite=Def	9	det	_	start_char=4865|end_char=4868|ner=O
+9	vuur	vuur	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	obl	_	start_char=4869|end_char=4873|ner=O
+10	zitten	zitten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=4874|end_char=4880|ner=O|SpaceAfter=No
+11	.	.	PUNCT	LET	_	2	punct	_	start_char=4880|end_char=4881|ner=O
+
+# text = Hij durfde geen kolen op het vuur te gooien;
+# sent_id = 56
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=4882|end_char=4885|ner=O
+2	durfde	durven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4886|end_char=4892|ner=O
+3	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	4	det	_	start_char=4893|end_char=4897|ner=O
+4	kolen	kool	NOUN	N|soort|mv|basis	Number=Plur	9	obj	_	start_char=4898|end_char=4903|ner=O
+5	op	op	ADP	VZ|init	_	7	case	_	start_char=4904|end_char=4906|ner=O
+6	het	het	DET	LID|bep|stan|evon	Definite=Def	7	det	_	start_char=4907|end_char=4910|ner=O
+7	vuur	vuur	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	obl	_	start_char=4911|end_char=4915|ner=O
+8	te	te	ADP	VZ|init	_	9	mark	_	start_char=4916|end_char=4918|ner=O
+9	gooien	gooien	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=4919|end_char=4925|ner=O|SpaceAfter=No
+10	;	;	PUNCT	LET	_	2	punct	_	start_char=4925|end_char=4926|ner=O
+
+# text = dan zou Antone boos worden.
+# sent_id = 57
+1	dan	dan	ADV	BW	_	5	advmod	_	start_char=4927|end_char=4930|ner=O
+2	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	start_char=4931|end_char=4934|ner=O
+3	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	_	start_char=4935|end_char=4941|ner=S-PER
+4	boos	boos	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	xcomp	_	start_char=4942|end_char=4946|ner=O
+5	worden	worden	AUX	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=4947|end_char=4953|ner=O|SpaceAfter=No
+6	.	.	PUNCT	LET	_	5	punct	_	start_char=4953|end_char=4954|ner=O
+
+# text = Hij wilde morgen niet gaan houthakken, dan was het zondag en hij wilde naar de mis gaan.
+# sent_id = 58
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=4955|end_char=4958|ner=O
+2	wilde	willen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=4959|end_char=4964|ner=O
+3	morgen	morgen	ADV	BW	_	6	advmod	_	start_char=4965|end_char=4971|ner=O
+4	niet	niet	ADV	BW	_	6	advmod	_	start_char=4972|end_char=4976|ner=O
+5	gaan	gaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=4977|end_char=4981|ner=O
+6	houthakken	houthakken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	5	xcomp	_	start_char=4982|end_char=4992|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	11	punct	_	start_char=4992|end_char=4993|ner=O
+8	dan	dan	ADV	BW	_	11	advmod	_	start_char=4994|end_char=4997|ner=O
+9	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	11	cop	_	start_char=4998|end_char=5001|ner=O
+10	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	11	nsubj	_	start_char=5002|end_char=5005|ner=O
+11	zondag	zondag	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	parataxis	_	start_char=5006|end_char=5012|ner=O
+12	en	en	CCONJ	VG|neven	_	14	cc	_	start_char=5013|end_char=5015|ner=O
+13	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	14	nsubj	_	start_char=5016|end_char=5019|ner=O
+14	wilde	willen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5020|end_char=5025|ner=O
+15	naar	naar	ADP	VZ|init	_	17	case	_	start_char=5026|end_char=5030|ner=O
+16	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	start_char=5031|end_char=5033|ner=O
+17	mis	mis	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obl	_	start_char=5034|end_char=5037|ner=O
+18	gaan	gaan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	14	xcomp	_	start_char=5038|end_char=5042|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	2	punct	_	start_char=5042|end_char=5043|ner=O
+
+# text = Dat zou Antone misschien toelaten.
+# sent_id = 59
+1	Dat	dat	PRON	VNW|aanw|pron|stan|vol|3o|ev	Person=3|PronType=Dem	5	obj	_	start_char=5044|end_char=5047|ner=O
+2	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	start_char=5048|end_char=5051|ner=O
+3	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	_	start_char=5052|end_char=5058|ner=S-PER
+4	misschien	misschien	ADV	BW	_	5	advmod	_	start_char=5059|end_char=5068|ner=O
+5	toelaten	toe_laten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=5069|end_char=5077|ner=O|SpaceAfter=No
+6	.	.	PUNCT	LET	_	5	punct	_	start_char=5077|end_char=5078|ner=O
+
+# text = Hij hield zijn viool onder zijn rimpelige kin, zijn witte haar viel eroverheen, en zette ‘Ave Maria’ in.
+# sent_id = 60
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5079|end_char=5082|ner=O
+2	hield	houden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5083|end_char=5088|ner=O
+3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5089|end_char=5093|ner=O
+4	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=5094|end_char=5099|ner=O
+5	onder	onder	ADP	VZ|init	_	8	case	_	start_char=5100|end_char=5105|ner=O
+6	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=5106|end_char=5110|ner=O
+7	rimpelige	rimpelig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	start_char=5111|end_char=5120|ner=O
+8	kin	kin	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	start_char=5121|end_char=5124|ner=O|SpaceAfter=No
+9	,	,	PUNCT	LET	_	13	punct	_	start_char=5124|end_char=5125|ner=O
+10	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=5126|end_char=5130|ner=O
+11	witte	wit	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	12	amod	_	start_char=5131|end_char=5136|ner=O
+12	haar	haar	PRON	VNW|pers|pron|obl|vol|3|getal|fem	Case=Acc|Person=3|PronType=Prs	13	nsubj	_	start_char=5137|end_char=5141|ner=O
+13	viel	vallen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=5142|end_char=5146|ner=O
+14	eroverheen	eroverheen	ADV	BW	_	13	advmod	_	start_char=5147|end_char=5157|ner=O|SpaceAfter=No
+15	,	,	PUNCT	LET	_	17	punct	_	start_char=5157|end_char=5158|ner=O
+16	en	en	CCONJ	VG|neven	_	17	cc	_	start_char=5159|end_char=5161|ner=O
+17	zette	zetten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5162|end_char=5167|ner=O
+18	‘	‘	PUNCT	LET	_	19	punct	_	start_char=5168|end_char=5169|ner=O|SpaceAfter=No
+19	Ave	Ave	PROPN	SPEC|deeleigen	_	17	obj	_	start_char=5169|end_char=5172|ner=B-MISC
+20	Maria	Maria	PROPN	SPEC|deeleigen	_	19	flat	_	start_char=5173|end_char=5178|ner=E-MISC|SpaceAfter=No
+21	’	'	PUNCT	LET	_	19	punct	_	start_char=5178|end_char=5179|ner=O
+22	in	in	ADP	VZ|fin	_	17	compound:prt	_	start_char=5180|end_char=5182|ner=O|SpaceAfter=No
+23	.	.	PUNCT	LET	_	2	punct	_	start_char=5182|end_char=5183|ner=O
+
+# text = Zijn hand beefde erger dan ooit en weigerde op het laatst de strijkstok te bedienen.
+# sent_id = 61
+1	Zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=5184|end_char=5188|ner=O
+2	hand	hand	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	start_char=5189|end_char=5193|ner=O
+3	beefde	beeven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5194|end_char=5200|ner=O
+4	erger	erg	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	3	advmod	_	start_char=5201|end_char=5206|ner=O
+5	dan	dan	SCONJ	VG|onder	_	6	mark	_	start_char=5207|end_char=5210|ner=O
+6	ooit	ooit	ADV	BW	_	4	advcl	_	start_char=5211|end_char=5215|ner=O
+7	en	en	CCONJ	VG|neven	_	8	cc	_	start_char=5216|end_char=5218|ner=O
+8	weigerde	weigeren	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	start_char=5219|end_char=5227|ner=O
+9	op	op	ADP	VZ|init	_	15	obl	_	start_char=5228|end_char=5230|ner=O
+10	het	het	DET	LID|bep|stan|evon	Definite=Def	9	fixed	_	start_char=5231|end_char=5234|ner=O
+11	laatst	laat	ADJ	ADJ|vrij|sup|zonder	Degree=Sup	9	fixed	_	start_char=5235|end_char=5241|ner=O
+12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	start_char=5242|end_char=5244|ner=O
+13	strijkstok	strijkstok	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obj	_	start_char=5245|end_char=5255|ner=O
+14	te	te	ADP	VZ|init	_	15	mark	_	start_char=5256|end_char=5258|ner=O
+15	bedienen	bedienen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	xcomp	_	start_char=5259|end_char=5267|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	3	punct	_	start_char=5267|end_char=5268|ner=O
+
+# text = Hij bleef een tijdje versuft zitten, stond vervolgens op en liep geruisloos met zijn viool naar de oude plaggenhut.
+# sent_id = 62
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5269|end_char=5272|ner=O
+2	bleef	blijven	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5273|end_char=5278|ner=O
+3	een	een	DET	LID|onbep|stan|agr	Definite=Ind	4	det	_	start_char=5279|end_char=5282|ner=O
+4	tijdje	tijd	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	5	obl	_	start_char=5283|end_char=5289|ner=O
+5	versuft	versuft	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	6	advmod	_	start_char=5290|end_char=5297|ner=O
+6	zitten	zitten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=5298|end_char=5304|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	8	punct	_	start_char=5304|end_char=5305|ner=O
+8	stond	staan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5306|end_char=5311|ner=O
+9	vervolgens	vervolgens	ADV	BW	_	8	advmod	_	start_char=5312|end_char=5322|ner=O
+10	op	op	ADP	VZ|fin	_	8	compound:prt	_	start_char=5323|end_char=5325|ner=O
+11	en	en	CCONJ	VG|neven	_	12	cc	_	start_char=5326|end_char=5328|ner=O
+12	liep	lopen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5329|end_char=5333|ner=O
+13	geruisloos	geruisloos	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	12	advmod	_	start_char=5334|end_char=5344|ner=O
+14	met	met	ADP	VZ|init	_	16	case	_	start_char=5345|end_char=5348|ner=O
+15	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=5349|end_char=5353|ner=O
+16	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	_	start_char=5354|end_char=5359|ner=O
+17	naar	naar	ADP	VZ|init	_	20	case	_	start_char=5360|end_char=5364|ner=O
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	20	det	_	start_char=5365|end_char=5367|ner=O
+19	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	20	amod	_	start_char=5368|end_char=5372|ner=O
+20	plaggenhut	plag_hut	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nmod	_	start_char=5373|end_char=5383|ner=O|SpaceAfter=No
+21	.	.	PUNCT	LET	_	2	punct	_	start_char=5383|end_char=5384|ner=O
+
+# text = Hij haalde Antones jachtgeweer van de haak en laadde het in het maanlicht dat door de deur naar binnen viel.
+# sent_id = 63
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5385|end_char=5388|ner=O
+2	haalde	halen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5389|end_char=5395|ner=O
+3	Antones	Antones	PROPN	N|eigen|ev|basis|gen|stan	Number=Sing	4	nmod:poss	_	start_char=5396|end_char=5403|ner=S-MISC
+4	jachtgeweer	jachtgeweer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obj	_	start_char=5404|end_char=5415|ner=O
+5	van	van	ADP	VZ|init	_	7	case	_	start_char=5416|end_char=5419|ner=O
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	start_char=5420|end_char=5422|ner=O
+7	haak	haak	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	_	start_char=5423|end_char=5427|ner=O
+8	en	en	CCONJ	VG|neven	_	9	cc	_	start_char=5428|end_char=5430|ner=O
+9	laadde	laden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5431|end_char=5437|ner=O
+10	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	9	obj	_	start_char=5438|end_char=5441|ner=O
+11	in	in	ADP	VZ|init	_	13	case	_	start_char=5442|end_char=5444|ner=O
+12	het	het	DET	LID|bep|stan|evon	Definite=Def	13	det	_	start_char=5445|end_char=5448|ner=O
+13	maanlicht	maanlicht	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	obl	_	start_char=5449|end_char=5458|ner=O
+14	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	20	nsubj	_	start_char=5459|end_char=5462|ner=O
+15	door	door	ADP	VZ|init	_	17	case	_	start_char=5463|end_char=5467|ner=O
+16	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	start_char=5468|end_char=5470|ner=O
+17	deur	deur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	_	start_char=5471|end_char=5475|ner=O
+18	naar	naar	ADP	VZ|init	_	19	case	_	start_char=5476|end_char=5480|ner=O
+19	binnen	binnen	ADP	VZ|fin	_	20	obl	_	start_char=5481|end_char=5487|ner=O
+20	viel	vallen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	13	acl:relcl	_	start_char=5488|end_char=5492|ner=O|SpaceAfter=No
+21	.	.	PUNCT	LET	_	2	punct	_	start_char=5492|end_char=5493|ner=O
+
+# text = Hij ging op de aarden vloer zitten en leunde tegen de aarden muur.
+# sent_id = 64
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5494|end_char=5497|ner=O
+2	ging	gaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5498|end_char=5502|ner=O
+3	op	op	ADP	VZ|init	_	5	case	_	start_char=5503|end_char=5505|ner=O
+4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	start_char=5506|end_char=5508|ner=O
+5	aarden	aarden	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obl	_	start_char=5509|end_char=5515|ner=O
+6	vloer	vloer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obj	_	start_char=5516|end_char=5521|ner=O
+7	zitten	zitten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=5522|end_char=5528|ner=O
+8	en	en	CCONJ	VG|neven	_	9	cc	_	start_char=5529|end_char=5531|ner=O
+9	leunde	leunen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5532|end_char=5538|ner=O
+10	tegen	tegen	ADP	VZ|init	_	13	case	_	start_char=5539|end_char=5544|ner=O
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	start_char=5545|end_char=5547|ner=O
+12	aarden	aarden	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	amod	_	start_char=5548|end_char=5554|ner=O
+13	muur	muur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	start_char=5555|end_char=5559|ner=O|SpaceAfter=No
+14	.	.	PUNCT	LET	_	2	punct	_	start_char=5559|end_char=5560|ner=O
+
+# text = Hij hoorde het huilen van de wolven in de verte en het gieren van de nachtelijke wind die over de sneeuw raasde.
+# sent_id = 65
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5561|end_char=5564|ner=O
+2	hoorde	horen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5565|end_char=5571|ner=O
+3	het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	start_char=5572|end_char=5575|ner=O
+4	huilen	huilen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	2	obj	_	start_char=5576|end_char=5582|ner=O
+5	van	van	ADP	VZ|init	_	7	case	_	start_char=5583|end_char=5586|ner=O
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	start_char=5587|end_char=5589|ner=O
+7	wolven	wolven	NOUN	N|soort|mv|basis	Number=Plur	4	nmod	_	start_char=5590|end_char=5596|ner=O
+8	in	in	ADP	VZ|init	_	10	case	_	start_char=5597|end_char=5599|ner=O
+9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	start_char=5600|end_char=5602|ner=O
+10	verte	verte	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nmod	_	start_char=5603|end_char=5608|ner=O
+11	en	en	CCONJ	VG|neven	_	13	cc	_	start_char=5609|end_char=5611|ner=O
+12	het	het	DET	LID|bep|stan|evon	Definite=Def	13	det	_	start_char=5612|end_char=5615|ner=O
+13	gieren	gieren	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	4	conj	_	start_char=5616|end_char=5622|ner=O
+14	van	van	ADP	VZ|init	_	17	case	_	start_char=5623|end_char=5626|ner=O
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	start_char=5627|end_char=5629|ner=O
+16	nachtelijke	nachtelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	17	amod	_	start_char=5630|end_char=5641|ner=O
+17	wind	wind	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	_	start_char=5642|end_char=5646|ner=O
+18	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	22	nsubj	_	start_char=5647|end_char=5650|ner=O
+19	over	over	ADP	VZ|init	_	21	case	_	start_char=5651|end_char=5655|ner=O
+20	de	de	DET	LID|bep|stan|rest	Definite=Def	21	det	_	start_char=5656|end_char=5658|ner=O
+21	sneeuw	sneeuw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	obl	_	start_char=5659|end_char=5665|ner=O
+22	raasde	razen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	17	acl:relcl	_	start_char=5666|end_char=5672|ner=O|SpaceAfter=No
+23	.	.	PUNCT	LET	_	2	punct	_	start_char=5672|end_char=5673|ner=O
+
+# text = Vlakbij in het duister hoorde hij de regelmatige ademhaling van de paarden.
+# sent_id = 66
+1	Vlakbij	vlakbij	ADP	VZ|init	_	4	case	_	start_char=5674|end_char=5681|ner=O
+2	in	in	ADP	VZ|init	_	4	case	_	start_char=5682|end_char=5684|ner=O
+3	het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	start_char=5685|end_char=5688|ner=O
+4	duister	duister	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	obl	_	start_char=5689|end_char=5696|ner=O
+5	hoorde	horen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5697|end_char=5703|ner=O
+6	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	5	nsubj	_	start_char=5704|end_char=5707|ner=O
+7	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	start_char=5708|end_char=5710|ner=O
+8	regelmatige	regelmatig	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	_	start_char=5711|end_char=5722|ner=O
+9	ademhaling	ademhaling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obj	_	start_char=5723|end_char=5733|ner=O
+10	van	van	ADP	VZ|init	_	12	case	_	start_char=5734|end_char=5737|ner=O
+11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	_	start_char=5738|end_char=5740|ner=O
+12	paarden	paard	NOUN	N|soort|mv|basis	Number=Plur	9	nmod	_	start_char=5741|end_char=5748|ner=O|SpaceAfter=No
+13	.	.	PUNCT	LET	_	5	punct	_	start_char=5748|end_char=5749|ner=O
+
+# text = Hij legde zijn kruisbeeld op zijn hart, vouwde zijn handen samen en prevelde hakkelend de enige woorden
+# sent_id = 67
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5750|end_char=5753|ner=O
+2	legde	leggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5754|end_char=5759|ner=O
+3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=5760|end_char=5764|ner=O
+4	kruisbeeld	kruis_beeld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obj	_	start_char=5765|end_char=5775|ner=O
+5	op	op	ADP	VZ|init	_	7	case	_	start_char=5776|end_char=5778|ner=O
+6	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=5779|end_char=5783|ner=O
+7	hart	hart	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	_	start_char=5784|end_char=5788|ner=O|SpaceAfter=No
+8	,	,	PUNCT	LET	_	9	punct	_	start_char=5788|end_char=5789|ner=O
+9	vouwde	vouwen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5790|end_char=5796|ner=O
+10	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=5797|end_char=5801|ner=O
+11	handen	hand	NOUN	N|soort|mv|basis	Number=Plur	9	obj	_	start_char=5802|end_char=5808|ner=O
+12	samen	samen	ADV	BW	_	9	compound:prt	_	start_char=5809|end_char=5814|ner=O
+13	en	en	CCONJ	VG|neven	_	14	cc	_	start_char=5815|end_char=5817|ner=O
+14	prevelde	prevelen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5818|end_char=5826|ner=O
+15	hakkelend	hakkelend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	14	advmod	_	start_char=5827|end_char=5836|ner=O
+16	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	_	start_char=5837|end_char=5839|ner=O
+17	enige	enig	PRON	VNW|onbep|det|stan|prenom|met-e|rest	PronType=Ind	18	nmod	_	start_char=5840|end_char=5845|ner=O
+18	woorden	woord	NOUN	N|soort|mv|basis	Number=Plur	14	obj	_	start_char=5846|end_char=5853|ner=O
+
+# text = Latijn die hij ooit had geleerd:
+# sent_id = 68
+1	Latijn	Latijn	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	0	root	_	start_char=5854|end_char=5860|ner=O
+2	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	6	obj	_	start_char=5861|end_char=5864|ner=O
+3	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	6	nsubj	_	start_char=5865|end_char=5868|ner=O
+4	ooit	ooit	ADV	BW	_	6	advmod	_	start_char=5869|end_char=5873|ner=O
+5	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	aux	_	start_char=5874|end_char=5877|ner=O
+6	geleerd	leren	VERB	WW|vd|vrij|zonder	VerbForm=Part	1	acl:relcl	_	start_char=5878|end_char=5885|ner=O|SpaceAfter=No
+7	:	:	PUNCT	LET	_	1	punct	_	start_char=5885|end_char=5886|ner=O
+
+# text = ‘Pater noster, qui in cælum est’.
+# sent_id = 69
+1	‘	‘	PUNCT	LET	_	2	punct	_	start_char=5887|end_char=5888|ner=O|SpaceAfter=No
+2	Pater	pater	X	SPEC|vreemd	Foreign=Yes	0	root	_	start_char=5888|end_char=5893|ner=B-MISC
+3	noster	noster	X	SPEC|vreemd	Foreign=Yes	2	fixed	_	start_char=5894|end_char=5900|ner=E-MISC|SpaceAfter=No
+4	,	,	SYM	LET	_	2	fixed	_	start_char=5900|end_char=5901|ner=O
+5	qui	qui	X	SPEC|vreemd	Foreign=Yes	2	fixed	_	start_char=5902|end_char=5905|ner=O
+6	in	in	X	SPEC|vreemd	Foreign=Yes	2	fixed	_	start_char=5906|end_char=5908|ner=O
+7	cælum	cælum	X	SPEC|vreemd	Foreign=Yes	2	fixed	_	start_char=5909|end_char=5914|ner=O
+8	est	est	X	SPEC|vreemd	Foreign=Yes	2	fixed	_	start_char=5915|end_char=5918|ner=O|SpaceAfter=No
+9	’	'	PUNCT	LET	_	2	punct	_	start_char=5918|end_char=5919|ner=O|SpaceAfter=No
+10	.	.	PUNCT	LET	_	2	punct	_	start_char=5919|end_char=5920|ner=O
+
+# text = Toen keek hij op en verzuchtte:
+# sent_id = 70
+1	Toen	toen	ADV	BW	_	2	advmod	_	start_char=5921|end_char=5925|ner=O
+2	keek	kijken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=5926|end_char=5930|ner=O
+3	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=5931|end_char=5934|ner=O
+4	op	op	ADP	VZ|fin	_	2	compound:prt	_	start_char=5935|end_char=5937|ner=O
+5	en	en	CCONJ	VG|neven	_	6	cc	_	start_char=5938|end_char=5940|ner=O
+6	verzuchtte	verzuchten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=5941|end_char=5951|ner=O|SpaceAfter=No
+7	:	:	PUNCT	LET	_	2	punct	_	start_char=5951|end_char=5952|ner=O
+
+# text = ‘Geen ene kreutzer zal Antone geven opdat er voor mijn ziel wordt gebeden, geen ene kreutzer, zo gierig is hij, die Antone, hij verbrast niets aan drank, hij is een betere man dan ik, maar soms ook hard.
+# sent_id = 71
+1	‘	‘	PUNCT	LET	_	7	punct	_	start_char=5953|end_char=5954|ner=O|SpaceAfter=No
+2	Geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	4	det	_	start_char=5954|end_char=5958|ner=O
+3	ene	een	PRON	VNW|onbep|det|stan|prenom|met-e|evz	PronType=Ind	4	nmod	_	start_char=5959|end_char=5962|ner=O
+4	kreutzer	kreutzer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	_	start_char=5963|end_char=5971|ner=O
+5	zal	zullen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=5972|end_char=5975|ner=O
+6	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	obj	_	start_char=5976|end_char=5982|ner=S-PER
+7	geven	geven	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=5983|end_char=5988|ner=O
+8	opdat	opdat	SCONJ	VG|onder	_	14	mark	_	start_char=5989|end_char=5994|ner=O
+9	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	14	advmod	_	start_char=5995|end_char=5997|ner=O
+10	voor	voor	ADP	VZ|init	_	12	case	_	start_char=5998|end_char=6002|ner=O
+11	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=6003|end_char=6007|ner=O
+12	ziel	ziel	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	_	start_char=6008|end_char=6012|ner=O
+13	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux:pass	_	start_char=6013|end_char=6018|ner=O
+14	gebeden	bijden	VERB	WW|vd|vrij|zonder	VerbForm=Part	7	advcl	_	start_char=6019|end_char=6026|ner=O|SpaceAfter=No
+15	,	,	PUNCT	LET	_	18	punct	_	start_char=6026|end_char=6027|ner=O
+16	geen	geen	DET	VNW|onbep|det|stan|prenom|zonder|agr	_	18	det	_	start_char=6028|end_char=6032|ner=O
+17	ene	een	PRON	VNW|onbep|det|stan|prenom|met-e|evz	PronType=Ind	18	nmod	_	start_char=6033|end_char=6036|ner=O
+18	kreutzer	kreutzer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	parataxis	_	start_char=6037|end_char=6045|ner=O|SpaceAfter=No
+19	,	,	PUNCT	LET	_	21	punct	_	start_char=6045|end_char=6046|ner=O
+20	zo	zo	ADV	BW	_	21	advmod	_	start_char=6047|end_char=6049|ner=O
+21	gierig	gierig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	parataxis	_	start_char=6050|end_char=6056|ner=O
+22	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=6057|end_char=6059|ner=O
+23	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	21	nsubj	_	start_char=6060|end_char=6063|ner=O|SpaceAfter=No
+24	,	,	PUNCT	LET	_	26	punct	_	start_char=6063|end_char=6064|ner=O
+25	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	26	det	_	start_char=6065|end_char=6068|ner=O
+26	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	parataxis	_	start_char=6069|end_char=6075|ner=S-PER|SpaceAfter=No
+27	,	,	PUNCT	LET	_	29	punct	_	start_char=6075|end_char=6076|ner=O
+28	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	29	nsubj	_	start_char=6077|end_char=6080|ner=O
+29	verbrast	verbrassen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=6081|end_char=6089|ner=O
+30	niets	niets	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	29	obj	_	start_char=6090|end_char=6095|ner=O
+31	aan	aan	ADP	VZ|init	_	32	case	_	start_char=6096|end_char=6099|ner=O
+32	drank	drank	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	30	nmod	_	start_char=6100|end_char=6105|ner=O|SpaceAfter=No
+33	,	,	PUNCT	LET	_	38	punct	_	start_char=6105|end_char=6106|ner=O
+34	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	38	nsubj	_	start_char=6107|end_char=6110|ner=O
+35	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	38	cop	_	start_char=6111|end_char=6113|ner=O
+36	een	een	DET	LID|onbep|stan|agr	Definite=Ind	38	det	_	start_char=6114|end_char=6117|ner=O
+37	betere	goed	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	38	amod	_	start_char=6118|end_char=6124|ner=O
+38	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	parataxis	_	start_char=6125|end_char=6128|ner=O
+39	dan	dan	SCONJ	VG|onder	_	40	mark	_	start_char=6129|end_char=6132|ner=O
+40	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	37	advcl	_	start_char=6133|end_char=6135|ner=O|SpaceAfter=No
+41	,	,	PUNCT	LET	_	45	punct	_	start_char=6135|end_char=6136|ner=O
+42	maar	maar	CCONJ	VG|neven	_	45	cc	_	start_char=6137|end_char=6141|ner=O
+43	soms	soms	ADV	BW	_	45	advmod	_	start_char=6142|end_char=6146|ner=O
+44	ook	ook	ADV	BW	_	45	advmod	_	start_char=6147|end_char=6150|ner=O
+45	hard	hard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	38	conj	_	start_char=6151|end_char=6155|ner=O|SpaceAfter=No
+46	.	.	PUNCT	LET	_	7	punct	_	start_char=6155|end_char=6156|ner=O
+
+# text = Hij beult de meisjes af, vrouwen zijn niet gemaakt om zo hard te werken.
+# sent_id = 72
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=6157|end_char=6160|ner=O
+2	beult	beulen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6161|end_char=6166|ner=O
+3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	start_char=6167|end_char=6169|ner=O
+4	meisjes	meisje	NOUN	N|soort|mv|basis	Number=Plur	2	obj	_	start_char=6170|end_char=6177|ner=O
+5	af	af	ADP	VZ|fin	_	2	compound:prt	_	start_char=6178|end_char=6180|ner=O|SpaceAfter=No
+6	,	,	PUNCT	LET	_	10	punct	_	start_char=6180|end_char=6181|ner=O
+7	vrouwen	vrouw	NOUN	N|soort|mv|basis	Number=Plur	10	nsubj	_	start_char=6182|end_char=6189|ner=O
+8	zijn	zijn	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=6190|end_char=6194|ner=O
+9	niet	niet	ADV	BW	_	10	advmod	_	start_char=6195|end_char=6199|ner=O
+10	gemaakt	maken	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	parataxis	_	start_char=6200|end_char=6207|ner=O
+11	om	om	ADP	VZ|init	_	15	mark	_	start_char=6208|end_char=6210|ner=O
+12	zo	zo	ADV	BW	_	13	advmod	_	start_char=6211|end_char=6213|ner=O
+13	hard	hard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	15	advmod	_	start_char=6214|end_char=6218|ner=O
+14	te	te	ADP	VZ|init	_	15	mark	_	start_char=6219|end_char=6221|ner=O
+15	werken	werken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	10	advcl	_	start_char=6222|end_char=6228|ner=O|SpaceAfter=No
+16	.	.	PUNCT	LET	_	2	punct	_	start_char=6228|end_char=6229|ner=O
+
+# text = Maar jou zal hij niet verkopen, lieve viool, op je spelen lukt me niet meer, maar ze krijgen ons niet uit elkaar.
+# sent_id = 73
+1	Maar	maar	CCONJ	VG|neven	_	6	mark	_	start_char=6230|end_char=6234|ner=O
+2	jou	jou	PRON	VNW|pers|pron|nomin|vol|2v|ev	Case=Acc|Person=2|PronType=Prs	6	obj	_	start_char=6235|end_char=6238|ner=O
+3	zal	zullen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6239|end_char=6242|ner=O
+4	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	6	nsubj	_	start_char=6243|end_char=6246|ner=O
+5	niet	niet	ADV	BW	_	6	advmod	_	start_char=6247|end_char=6251|ner=O
+6	verkopen	verkopen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	start_char=6252|end_char=6260|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	9	punct	_	start_char=6260|end_char=6261|ner=O
+8	lieve	lief	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	9	amod	_	start_char=6262|end_char=6267|ner=O
+9	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	parataxis	_	start_char=6268|end_char=6273|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	14	punct	_	start_char=6273|end_char=6274|ner=O
+11	op	op	ADP	VZ|init	_	12	case	_	start_char=6275|end_char=6277|ner=O
+12	je	je	PRON	VNW|pr|pron|obl|red|2v|getal	Case=Acc|Person=2|PronType=Prs	13	obl	_	start_char=6278|end_char=6280|ner=O
+13	spelen	spelen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	14	nsubj	_	start_char=6281|end_char=6287|ner=O
+14	lukt	lukken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	parataxis	_	start_char=6288|end_char=6292|ner=O
+15	me	me	PRON	VNW|pr|pron|obl|red|1|ev	Case=Acc|Person=1|PronType=Prs	14	iobj	_	start_char=6293|end_char=6295|ner=O
+16	niet	niet	ADV	BW	_	14	advmod	_	start_char=6296|end_char=6300|ner=O
+17	meer	veel	ADV	VNW|onbep|grad|stan|vrij|zonder|comp	_	16	advmod	_	start_char=6301|end_char=6305|ner=O|SpaceAfter=No
+18	,	,	PUNCT	LET	_	21	punct	_	start_char=6305|end_char=6306|ner=O
+19	maar	maar	CCONJ	VG|neven	_	21	cc	_	start_char=6307|end_char=6311|ner=O
+20	ze	ze	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	21	nsubj	_	start_char=6312|end_char=6314|ner=O
+21	krijgen	krijgen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=6315|end_char=6322|ner=O
+22	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	21	obj	_	start_char=6323|end_char=6326|ner=O
+23	niet	niet	ADV	BW	_	21	advmod	_	start_char=6327|end_char=6331|ner=O
+24	uit	uit	ADP	VZ|init	_	25	case	_	start_char=6332|end_char=6335|ner=O
+25	elkaar	elkaar	PRON	VNW|recip|pron|obl|vol|persoon|mv	Case=Acc|PronType=Rcp	21	obl	_	start_char=6336|end_char=6342|ner=O|SpaceAfter=No
+26	.	.	PUNCT	LET	_	6	punct	_	start_char=6342|end_char=6343|ner=O
+
+# text = We hebben het allemaal samen meegemaakt en we zullen het samen vergeten, de Franse vrouw en de rest.’
+# sent_id = 74
+1	We	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	6	nsubj	_	start_char=6344|end_char=6346|ner=O
+2	hebben	hebben	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=6347|end_char=6353|ner=O
+3	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	6	obj	_	start_char=6354|end_char=6357|ner=O
+4	allemaal	allemaal	ADV	BW	_	6	advmod	_	start_char=6358|end_char=6366|ner=O
+5	samen	samen	ADV	BW	_	6	advmod	_	start_char=6367|end_char=6372|ner=O
+6	meegemaakt	mee_maken	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=6373|end_char=6383|ner=O
+7	en	en	CCONJ	VG|neven	_	12	cc	_	start_char=6384|end_char=6386|ner=O
+8	we	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	12	nsubj	_	start_char=6387|end_char=6389|ner=O
+9	zullen	zullen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=6390|end_char=6396|ner=O
+10	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	12	obj	_	start_char=6397|end_char=6400|ner=O
+11	samen	samen	ADV	BW	_	12	advmod	_	start_char=6401|end_char=6406|ner=O
+12	vergeten	vergeten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	6	conj	_	start_char=6407|end_char=6415|ner=O|SpaceAfter=No
+13	,	,	PUNCT	LET	_	16	punct	_	start_char=6415|end_char=6416|ner=O
+14	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	start_char=6417|end_char=6419|ner=O
+15	Franse	Frans	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	16	amod	_	start_char=6420|end_char=6426|ner=S-MISC
+16	vrouw	vrouw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	parataxis	_	start_char=6427|end_char=6432|ner=O
+17	en	en	CCONJ	VG|neven	_	19	cc	_	start_char=6433|end_char=6435|ner=O
+18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	_	start_char=6436|end_char=6438|ner=O
+19	rest	rest	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	conj	_	start_char=6439|end_char=6443|ner=O|SpaceAfter=No
+20	.	.	PUNCT	LET	_	6	punct	_	start_char=6443|end_char=6444|ner=O|SpaceAfter=No
+21	’	'	PUNCT	LET	_	6	punct	_	start_char=6444|end_char=6445|ner=O
+
+# text = Hij liet zijn viool even onder zijn kin rusten, waar hij zo vaak had gelegen, legde hem op zijn knie en brak hem doormidden.
+# sent_id = 75
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=6446|end_char=6449|ner=O
+2	liet	laten	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=6450|end_char=6454|ner=O
+3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=6455|end_char=6459|ner=O
+4	viool	viool	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obj	_	start_char=6460|end_char=6465|ner=O
+5	even	even	ADV	BW	_	9	advmod	_	start_char=6466|end_char=6470|ner=O
+6	onder	onder	ADP	VZ|init	_	8	case	_	start_char=6471|end_char=6476|ner=O
+7	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=6477|end_char=6481|ner=O
+8	kin	kin	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	start_char=6482|end_char=6485|ner=O
+9	rusten	uit_rusten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	start_char=6486|end_char=6492|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	16	punct	_	start_char=6492|end_char=6493|ner=O
+11	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	16	advmod	_	start_char=6494|end_char=6498|ner=O
+12	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	16	nsubj	_	start_char=6499|end_char=6502|ner=O
+13	zo	zo	ADV	BW	_	14	advmod	_	start_char=6503|end_char=6505|ner=O
+14	vaak	vaak	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	16	advmod	_	start_char=6506|end_char=6510|ner=O
+15	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux	_	start_char=6511|end_char=6514|ner=O
+16	gelegen	liggen	VERB	WW|vd|vrij|zonder	VerbForm=Part	8	acl:relcl	_	start_char=6515|end_char=6522|ner=O|SpaceAfter=No
+17	,	,	PUNCT	LET	_	18	punct	_	start_char=6522|end_char=6523|ner=O
+18	legde	leggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6524|end_char=6529|ner=O
+19	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	18	obj	_	start_char=6530|end_char=6533|ner=O
+20	op	op	ADP	VZ|init	_	22	case	_	start_char=6534|end_char=6536|ner=O
+21	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=6537|end_char=6541|ner=O
+22	knie	knie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obl	_	start_char=6542|end_char=6546|ner=O
+23	en	en	CCONJ	VG|neven	_	24	cc	_	start_char=6547|end_char=6549|ner=O
+24	brak	door_breken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6550|end_char=6554|ner=O
+25	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	24	obj	_	start_char=6555|end_char=6558|ner=O
+26	doormidden	doormidden	ADV	BW	_	24	compound:prt	_	start_char=6559|end_char=6569|ner=O|SpaceAfter=No
+27	.	.	PUNCT	LET	_	2	punct	_	start_char=6569|end_char=6570|ner=O
+
+# text = Hij trok zijn oude laars uit, klemde het geweer tussen zijn knieën met de loop tegen zijn voorhoofd en haalde met zijn teen de trekker over.
+# sent_id = 76
+1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	2	nsubj	_	start_char=6571|end_char=6574|ner=O
+2	trok	trekken	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=6575|end_char=6579|ner=O
+3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=6580|end_char=6584|ner=O
+4	oude	oud	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	5	amod	_	start_char=6585|end_char=6589|ner=O
+5	laars	laars	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	start_char=6590|end_char=6595|ner=O
+6	uit	uit	ADP	VZ|fin	_	2	compound:prt	_	start_char=6596|end_char=6599|ner=O|SpaceAfter=No
+7	,	,	PUNCT	LET	_	8	punct	_	start_char=6599|end_char=6600|ner=O
+8	klemde	klemmen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6601|end_char=6607|ner=O
+9	het	het	DET	LID|bep|stan|evon	Definite=Def	10	det	_	start_char=6608|end_char=6611|ner=O
+10	geweer	geweer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	obj	_	start_char=6612|end_char=6618|ner=O
+11	tussen	tussen	ADP	VZ|init	_	13	case	_	start_char=6619|end_char=6625|ner=O
+12	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=6626|end_char=6630|ner=O
+13	knieën	knie	NOUN	N|soort|mv|basis	Number=Plur	10	nmod	_	start_char=6631|end_char=6637|ner=O
+14	met	met	ADP	VZ|init	_	16	case	_	start_char=6638|end_char=6641|ner=O
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	start_char=6642|end_char=6644|ner=O
+16	loop	loop	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	start_char=6645|end_char=6649|ner=O
+17	tegen	tegen	ADP	VZ|init	_	19	case	_	start_char=6650|end_char=6655|ner=O
+18	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=6656|end_char=6660|ner=O
+19	voorhoofd	voorhoofd	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	nmod	_	start_char=6661|end_char=6670|ner=O
+20	en	en	CCONJ	VG|neven	_	21	cc	_	start_char=6671|end_char=6673|ner=O
+21	haalde	halen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	start_char=6674|end_char=6680|ner=O
+22	met	met	ADP	VZ|init	_	24	case	_	start_char=6681|end_char=6684|ner=O
+23	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=6685|end_char=6689|ner=O
+24	teen	teen	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	obl	_	start_char=6690|end_char=6694|ner=O
+25	de	de	DET	LID|bep|stan|rest	Definite=Def	26	det	_	start_char=6695|end_char=6697|ner=O
+26	trekker	trekker	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	obj	_	start_char=6698|end_char=6705|ner=O
+27	over	over	ADP	VZ|fin	_	21	compound:prt	_	start_char=6706|end_char=6710|ner=O|SpaceAfter=No
+28	.	.	PUNCT	LET	_	2	punct	_	start_char=6710|end_char=6711|ner=O|SpacesAfter=\s\n
+
+# text = ’s Ochtends vond Antone hem, stijf bevroren in een plas bloed.
+# sent_id = 77
+1	’s	de	DET	LID|bep|gen|evmo	Definite=Def	3	obl	_	start_char=6713|end_char=6715|ner=O
+2	Ochtends	ochtend	NOUN	N|soort|ev|basis|gen	Number=Sing	1	fixed	_	start_char=6716|end_char=6724|ner=O
+3	vond	plaats_vinden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=6725|end_char=6729|ner=O
+4	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com,Neut|Number=Sing	3	nsubj	_	start_char=6730|end_char=6736|ner=S-PER
+5	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	3	iobj	_	start_char=6737|end_char=6740|ner=O|SpaceAfter=No
+6	,	,	PUNCT	LET	_	8	punct	_	start_char=6740|end_char=6741|ner=O
+7	stijf	stijf	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	8	advmod	_	start_char=6742|end_char=6747|ner=O
+8	bevroren	bevriezen	VERB	WW|vd|vrij|zonder	VerbForm=Part	3	advcl	_	start_char=6748|end_char=6756|ner=O
+9	in	in	ADP	VZ|init	_	11	case	_	start_char=6757|end_char=6759|ner=O
+10	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	_	start_char=6760|end_char=6763|ner=O
+11	plas	plas	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	start_char=6764|end_char=6768|ner=O
+12	bloed	bloed	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	appos	_	start_char=6769|end_char=6774|ner=O|SpaceAfter=No
+13	.	.	PUNCT	LET	_	3	punct	_	start_char=6774|end_char=6775|ner=O
+
+# text = Ze kregen hem niet genoeg uitgestrekt voor een doodskist, dus werd hij in een houten kist begraven.
+# sent_id = 78
+1	Ze	ze	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	6	nsubj	_	start_char=6776|end_char=6778|ner=O
+2	kregen	krijgen	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	6	aux:pass	_	start_char=6779|end_char=6785|ner=O
+3	hem	hem	PRON	VNW|pers|pron|obl|vol|3|ev|masc	Case=Acc|Person=3|PronType=Prs	6	obj	_	start_char=6786|end_char=6789|ner=O
+4	niet	niet	ADV	BW	_	6	advmod	_	start_char=6790|end_char=6794|ner=O
+5	genoeg	genoeg	ADV	BW	_	4	advmod	_	start_char=6795|end_char=6801|ner=O
+6	uitgestrekt	uit_strekken	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	start_char=6802|end_char=6813|ner=O
+7	voor	voor	ADP	VZ|init	_	9	case	_	start_char=6814|end_char=6818|ner=O
+8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	9	det	_	start_char=6819|end_char=6822|ner=O
+9	doodskist	dood_skist	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	_	start_char=6823|end_char=6832|ner=O|SpaceAfter=No
+10	,	,	PUNCT	LET	_	18	punct	_	start_char=6832|end_char=6833|ner=O
+11	dus	dus	ADV	BW	_	18	advmod	_	start_char=6834|end_char=6837|ner=O
+12	werd	worden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	18	aux:pass	_	start_char=6838|end_char=6842|ner=O
+13	hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	18	nsubj:pass	_	start_char=6843|end_char=6846|ner=O
+14	in	in	ADP	VZ|init	_	17	case	_	start_char=6847|end_char=6849|ner=O
+15	een	een	DET	LID|onbep|stan|agr	Definite=Ind	17	det	_	start_char=6850|end_char=6853|ner=O
+16	houten	houten	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	17	amod	_	start_char=6854|end_char=6860|ner=O
+17	kist	kist	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obl	_	start_char=6861|end_char=6865|ner=O
+18	begraven	begraven	VERB	WW|vd|vrij|zonder	VerbForm=Part	6	parataxis	_	start_char=6866|end_char=6874|ner=O|SpaceAfter=No
+19	.	.	PUNCT	LET	_	6	punct	_	start_char=6874|end_char=6875|ner=O
+
+# text = Vóór de begrafenis bracht Antone de strijkstok die Peter had vergeten te breken naar de stad.
+# sent_id = 79
+1	Vóór	voor	ADP	VZ|init	_	3	case	_	start_char=6876|end_char=6880|ner=O
+2	de	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	start_char=6881|end_char=6883|ner=O
+3	begrafenis	begrafenis	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	start_char=6884|end_char=6894|ner=O
+4	bracht	brengen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=6895|end_char=6901|ner=O
+5	Antone	Antone	PROPN	N|eigen|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	4	nsubj	_	start_char=6902|end_char=6908|ner=S-PER
+6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	start_char=6909|end_char=6911|ner=O
+7	strijkstok	strijkstok	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	start_char=6912|end_char=6922|ner=O
+8	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	11	obj	_	start_char=6923|end_char=6926|ner=O
+9	Peter	Peter	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nsubj	_	start_char=6927|end_char=6932|ner=S-PER
+10	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	11	aux	_	start_char=6933|end_char=6936|ner=O
+11	vergeten	vergeten	VERB	WW|vd|vrij|zonder	VerbForm=Part	7	acl:relcl	_	start_char=6937|end_char=6945|ner=O
+12	te	te	ADP	VZ|init	_	13	mark	_	start_char=6946|end_char=6948|ner=O
+13	breken	breken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	11	xcomp	_	start_char=6949|end_char=6955|ner=O
+14	naar	naar	ADP	VZ|init	_	16	case	_	start_char=6956|end_char=6960|ner=O
+15	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	start_char=6961|end_char=6963|ner=O
+16	stad	stad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obl	_	start_char=6964|end_char=6968|ner=O|SpaceAfter=No
+17	.	.	PUNCT	LET	_	4	punct	_	start_char=6968|end_char=6969|ner=O
+
+# text = Antone was bijzonder spaarzaam en een betere man dan zijn vader was geweest.
+# sent_id = 80
+1	Antone	Antone	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nsubj	_	start_char=6970|end_char=6976|ner=S-PER
+2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	start_char=6977|end_char=6980|ner=O
+3	bijzonder	bijzonder	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	4	advmod	_	start_char=6981|end_char=6990|ner=O
+4	spaarzaam	spaarzaam	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	start_char=6991|end_char=7000|ner=O
+5	en	en	CCONJ	VG|neven	_	8	cc	_	start_char=7001|end_char=7003|ner=O
+6	een	een	DET	LID|onbep|stan|agr	Definite=Ind	8	det	_	start_char=7004|end_char=7007|ner=O
+7	betere	goed	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	8	amod	_	start_char=7008|end_char=7014|ner=O
+8	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	conj	_	start_char=7015|end_char=7018|ner=O
+9	dan	dan	SCONJ	VG|onder	_	11	mark	_	start_char=7019|end_char=7022|ner=O
+10	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=7023|end_char=7027|ner=O
+11	vader	vader	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	advcl	_	start_char=7028|end_char=7033|ner=O
+12	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	13	aux	_	start_char=7034|end_char=7037|ner=O
+13	geweest	zijn	AUX	WW|vd|vrij|zonder	VerbForm=Part	8	cop	_	start_char=7038|end_char=7045|ner=O|SpaceAfter=No
+14	.	.	PUNCT	LET	_	4	punct	_	start_char=7045|end_char=7046|ner=O|SpacesAfter=\n\n
+
+# text = Willa Cather (1892)
+# sent_id = 81
+1	Willa	Willa	PROPN	SPEC|deeleigen	_	0	root	_	start_char=7048|end_char=7053|ner=B-PER
+2	Cather	Cather	PROPN	SPEC|deeleigen	_	1	flat	_	start_char=7054|end_char=7060|ner=E-PER
+3	(	(	PUNCT	LET	_	4	punct	_	start_char=7061|end_char=7062|ner=O|SpaceAfter=No
+4	1892	1892	NUM	TW|hoofd|vrij	_	1	nummod	_	start_char=7062|end_char=7066|ner=O|SpaceAfter=No
+5	)	)	PUNCT	LET	_	4	punct	_	start_char=7066|end_char=7067|ner=O|SpacesAfter=\n
+
