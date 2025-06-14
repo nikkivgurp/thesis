@@ -1,0 +1,6 @@
+python3 udstyle.py --parse=en content/Original_story.txt --output=ST_syn.tsv
+python3 udstyle.py --parse=nl content/HumanTranslations/*.txt --output=HT_syn.tsv
+python3 udstyle.py --parse=nl content/MachineTranslations/*.txt --output=MT_syn.tsv
+python3 calculate_MATTR.py content/Original_story.txt ST_MATTR.tsv
+python3 calculate_MATTR.py content/HumanTranslations/*.txt HT_MATTR.tsv
+python3 calculate_MATTR.py content/MachineTranslations/*.txt MT_MATTR.tsv
